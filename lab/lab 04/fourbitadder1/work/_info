@@ -1,0 +1,52 @@
+m255
+13
+cModel Technology
+dF:\2006-2007\eem211\lab04\fourbitadder1
+vfadder
+IWXYgFFkmU46_TPb^ggen91
+VMJTd<E]lhmzfM;9LEY;g33
+dE:\2006-2007\eem211\lab04\fourbitadder1
+w1162997068
+Fforbitadder1.v
+L0 2
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vfourbitadder1
+IALFhSGHBhP`cdkPLMl[7H1
+VAATJRIGi2hNlD5;4eC7Lo0
+dE:\2006-2007\eem211\lab04\fourbitadder1
+w1162997068
+Fforbitadder1.v
+L0 12
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+dE:\2006-2007\eem211\lab04\fourbitadder1
+w1107956757
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vlab4test
+IW43Cm?UU=]WfjH_QQB3Y60
+VWokW8eabO>3C1mVNVVcAe3
+dE:\2006-2007\eem211\lab04\fourbitadder1
+w1162997096
+Flab4test.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000

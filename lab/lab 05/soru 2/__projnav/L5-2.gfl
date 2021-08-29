@@ -1,0 +1,125 @@
+# Schematic : PDCL (jhdparse)
+__projnav/Sema2_jhdparse_tcl.rsp
+# Bencher : Creating project file
+Sema2test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# xst flow : RunXST
+Sema2_summary.html
+# Schematic : View HDL Functional Model
+Sema2.vf
+# Bencher : Creating project file
+Sema2test_bencher.prj
+# Bencher : Creating project file
+Sema2test_bencher.prj
+# Bencher : Creating project file
+Sema2test_bencher.prj
+# Update Bencher Waveform
+__projnav/updateTBW_tcl.rsp
+Sema2test.vhw
+Sema2test.ano
+Sema2test.tfw
+Sema2test.ant
+# ModelSim : Simulate Behavioral Verilog Model
+Sema2test.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# xst flow : RunXST
+Sema2_summary.html
+# Bencher : Creating project file
+Sema2test_bencher.prj
+# xst flow : RunXST
+Sema2_summary.html
+# xst flow : RunXST
+Sema2_summary.html
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+Sema2.lso
+# xst flow : RunXST
+Sema2_summary.html
+# xst flow : RunXST
+Sema2.syr
+Sema2.prj
+Sema2.sprj
+Sema2.ana
+Sema2.stx
+Sema2.cmd_log
+Sema2.ngc
+Sema2.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"f:\2006-2007\eem211\l5-2/_ngo"
+Sema2.ngd
+Sema2_ngdbuild.nav
+Sema2.bld
+pegasus.ucf.untf
+Sema2.cmd_log
+# Implementation : Map
+Sema2_summary.html
+# Implementation : Map
+Sema2_map.ncd
+Sema2.ngm
+Sema2.pcf
+Sema2.nc1
+Sema2.mrp
+Sema2_map.mrp
+Sema2.mdf
+Sema2.cmd_log
+MAP_NO_GUIDE_FILE_CPF "Sema2"
+Sema2_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+Sema2.twr
+Sema2.twx
+Sema2.tsi
+Sema2.cmd_log
+# Implementation : Place & Route
+Sema2_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+Sema2.ncd
+Sema2.par
+Sema2.pad
+Sema2_pad.txt
+Sema2_pad.csv
+Sema2.pad_txt
+Sema2.dly
+reportgen.log
+Sema2.xpi
+Sema2.grf
+Sema2.itr
+Sema2_last_par.ncd
+Sema2.placed_ncd_tracker
+Sema2.routed_ncd_tracker
+Sema2.cmd_log
+PAR_NO_GUIDE_FILE_CPF "Sema2"
+# Generate Programming File
+__projnav/Sema2_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+Sema2.ut
+# Generate Programming File
+Sema2.bgn
+Sema2.rbt
+Sema2.ll
+Sema2.msk
+Sema2.drc
+Sema2.nky
+Sema2.bit
+Sema2.bin
+Sema2.isc
+Sema2.cmd_log
+# Configure Device (iMPACT)
+Sema2.prm
+Sema2.isc
+Sema2.svf
+xilinx.sys
+Sema2.mcs
+Sema2.exo
+Sema2.hex
+Sema2.tek
+Sema2.dst
+Sema2.dst_compressed
+Sema2.mpm
+_impact.cmd
+_impact.log

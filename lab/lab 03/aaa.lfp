@@ -1,0 +1,6 @@
+# begin LFP file C:\Documents and Settings\ogrenci\Desktop\aaa.lfp
+designfile aaa.v
+parttype xc2s200-6-pq208
+bus_delimiter 0;
+set_busdelim_onsave 1;
+INST "aaa" COLOR=15  ;

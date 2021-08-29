@@ -1,0 +1,91 @@
+
+**** 12/01/06 13:11:01 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-devre1"  [ G:\Yasin\yasin-SCHEMATIC1-devre1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "yasin-SCHEMATIC1-devre1.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000ns 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\yasin-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING yasin-SCHEMATIC1.net ****
+* source YASIN
+V_V1         N00062 0 38.5Vdc
+R_R1         0 N00015  100  
+R_R2         N00015 N00021  25  
+R_R3         0 N00021  200  
+R_R4         N00794 N00051  50  
+R_R5         N00638 N00051  5  
+R_R6         N00051 N00062  20  
+X_H1    N00752 N00794 N00638 0 SCHEMATIC1_H1 
+X_F1    N00021 N00752 0 N00015 SCHEMATIC1_F1 
+
+.subckt SCHEMATIC1_H1 1 2 3 4  
+H_H1         3 4 VH_H1 5
+VH_H1         1 2 0V
+.ends SCHEMATIC1_H1
+
+.subckt SCHEMATIC1_F1 1 2 3 4  
+F_F1         3 4 VF_F1 2
+VF_F1         1 2 0V
+.ends SCHEMATIC1_F1
+
+**** RESUMING yasin-SCHEMATIC1-devre1.sim.cir ****
+.END
+
+**** 12/01/06 13:11:01 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-devre1"  [ G:\Yasin\yasin-SCHEMATIC1-devre1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00015)  -50.0000 (N00021)  -30.0000 (N00051)    2.5000 (N00062)   38.5000     
+
+(N00638)   -3.2500 (N00752)  -30.0000 (N00794)  -30.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.800E+00
+    X_H1.VH_H1  -6.500E-01
+    X_F1.VF_F1  -6.500E-01
+
+    TOTAL POWER DISSIPATION   6.93E+01  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .11
+

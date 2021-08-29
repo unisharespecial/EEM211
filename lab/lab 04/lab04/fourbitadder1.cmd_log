@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn __projnav/fourbitadder1.xst -ofn fourbitadder1.syr
+ngdbuild -intstyle ise -dd "f:\2006-2007\eem211\lab04\lab04/_ngo" -uc pegasus.ucf -aul  -p xc2s200-pq208-6 fourbitadder1.ngc fourbitadder1.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o fourbitadder1_map.ncd fourbitadder1.ngd fourbitadder1.pcf
+par -w -intstyle ise -ol std -t 1 fourbitadder1_map.ncd fourbitadder1.ncd fourbitadder1.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml fourbitadder1 fourbitadder1.ncd -o fourbitadder1.twr fourbitadder1.pcf
+bitgen -intstyle ise -f fourbitadder1.ut fourbitadder1.ncd

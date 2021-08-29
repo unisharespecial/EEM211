@@ -1,0 +1,12 @@
+module tamtoplayici(LD0,LD1,SW0,SW1,BTN0);
+input SW0,SW1,BTN0;
+output LD0,LD1;
+wire w1,w2,w3;
+xor #(17) xor1(w1,SW0,SW1);
+and #(14) and1(w2,SW0,SW1);
+xor #(17) xor2(LD0,w1,BTN0);
+and #(14) and2(w3,BTN0,w1);
+or #(15) or1(LD1,w2,w3);
+
+
+endmodule

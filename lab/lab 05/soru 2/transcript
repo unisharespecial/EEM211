@@ -1,0 +1,34 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do Sema2test.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module Sema2
+# 
+# Top level modules:
+# 	Sema2
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module Sema2test
+# 
+# Top level modules:
+# 	Sema2test
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps Sema2test glbl 
+# Loading work.Sema2test
+# Loading work.Sema2
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.INV
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND2
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND3
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.OR3
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.OR2
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+# No errors or warnings.
+# Break at Sema2test.tfw line 49
+# Simulation Breakpoint: Break at Sema2test.tfw line 49
+# MACRO ./Sema2test.fdo PAUSED at line 14

@@ -1,0 +1,3 @@
+sch2verilog -intstyle ise   -family spartan2 -w sema02.sch sema02.vf
+sch2verilog -intstyle ise   -family spartan2 -w sema02.sch sema02.vf
+sch2verilog -intstyle ise   -family spartan2 -w sema02.sch sema02.vf

@@ -1,0 +1,112 @@
+# Schematic : View HDL Functional Model
+aaa.vf
+# Schematic : View HDL Functional Model
+aaa.vf
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         
+# Assign Package Pins (Design Module)
+if
+ $IsCopy 
+
+            Xilinx::Dpm::dpm_flowUtilsFilesToDelete "DID_File"  "$HDLModule"
+         
+# XST (Creating Lso File) : 
+aaa.lso
+# xst flow : RunXST
+aaa_summary.html
+# xst flow : RunXST
+aaa.syr
+aaa.prj
+aaa.sprj
+aaa.ana
+aaa.stx
+aaa.cmd_log
+aaa.ngc
+aaa.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\ogrenci\desktop/_ngo"
+aaa.ngd
+aaa_ngdbuild.nav
+aaa.bld
+aaa.ucf.untf
+aaa.cmd_log
+# Implementation : Map
+aaa_summary.html
+# Implementation : Map
+aaa_map.ncd
+aaa.ngm
+aaa.pcf
+aaa.nc1
+aaa.mrp
+aaa_map.mrp
+aaa.mdf
+aaa.cmd_log
+MAP_NO_GUIDE_FILE_CPF "aaa"
+aaa_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+aaa.twr
+aaa.twx
+aaa.tsi
+aaa.cmd_log
+# Implementation : Place & Route
+aaa_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+aaa.ncd
+aaa.par
+aaa.pad
+aaa_pad.txt
+aaa_pad.csv
+aaa.pad_txt
+aaa.dly
+reportgen.log
+aaa.xpi
+aaa.grf
+aaa.itr
+aaa_last_par.ncd
+aaa.placed_ncd_tracker
+aaa.routed_ncd_tracker
+aaa.cmd_log
+PAR_NO_GUIDE_FILE_CPF "aaa"
+# Generate Programming File
+__projnav/aaa_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+aaa.ut
+# Generate Programming File
+aaa.bgn
+aaa.rbt
+aaa.ll
+aaa.msk
+aaa.drc
+aaa.nky
+aaa.bit
+aaa.bin
+aaa.isc
+aaa.cmd_log
+# Configure Device (iMPACT)
+aaa.prm
+aaa.isc
+aaa.svf
+xilinx.sys
+aaa.mcs
+aaa.exo
+aaa.hex
+aaa.tek
+aaa.dst
+aaa.dst_compressed
+aaa.mpm
+_impact.cmd
+_impact.log

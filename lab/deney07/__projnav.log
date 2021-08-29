@@ -1,0 +1,1290 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sema1.vf"
+Module <sema1> compiled
+No errors in compilation
+Analysis of file <"sema1.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <sema1>.
+Module <sema1> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <sema1>.
+    Related source file is "sema1.vf".
+Unit <sema1> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sema1> ...
+Loading device for application Rf_Device from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sema1, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of bonded IOBs:                  5  out of    144     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 12.986ns
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd c:\deney7/_ngo -i -aul -p
+xc2s200-pq208-6 sema1.ngc sema1.ngd 
+
+Reading NGO file 'C:/deney7/sema1.ngc' ...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "sema1.ngd" ...
+
+Writing NGDBUILD log file "sema1.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:             1 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           1 out of  2,352    1%
+    Number of Slices containing only related logic:      1 out of      1  100%
+    Number of Slices containing unrelated logic:         0 out of      1    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:         1 out of  4,704    1%
+   Number of bonded IOBs:             5 out of    140    3%
+
+Total equivalent gate count for design:  6
+Additional JTAG gate count for IOBs:  240
+Peak Memory Usage:  96 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "sema1_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: sema1.pcf.
+Loading device for application Rf_Device from file 'v200.nph' in environment
+C:/Xilinx.
+   "sema1" is an NCD, version 3.1, device xc2s200, package pq208, speed -6
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000
+Celsius)
+Initializing voltage to 2.375 Volts. (default - Range: 2.375 to 2.625 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.27 2005-01-22".
+
+
+Device Utilization Summary:
+
+   Number of External IOBs             5 out of 140     3%
+      Number of LOCed IOBs             0 out of 5       0%
+
+   Number of SLICEs                    1 out of 2352    1%
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98968b) REAL time: 1 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 1 secs 
+
+Phase 3.23
+Phase 3.23 (Checksum:1c9c37d) REAL time: 1 secs 
+
+Phase 4.3
+Phase 4.3 (Checksum:26259fc) REAL time: 1 secs 
+
+Phase 5.5
+Phase 5.5 (Checksum:2faf07b) REAL time: 1 secs 
+
+Phase 6.8
+.
+Phase 6.8 (Checksum:989fa3) REAL time: 1 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 1 secs 
+
+Phase 8.18
+Phase 8.18 (Checksum:4c4b3f8) REAL time: 1 secs 
+
+Phase 9.5
+Phase 9.5 (Checksum:55d4a77) REAL time: 1 secs 
+
+Writing design to file sema1.ncd
+
+
+Total REAL time to Placer completion: 1 secs 
+Total CPU time to Placer completion: 0 secs 
+
+Starting Router
+
+Phase 1: 5 unrouted;       REAL time: 1 secs 
+
+Phase 2: 5 unrouted;       REAL time: 1 secs 
+
+Phase 3: 1 unrouted;       REAL time: 1 secs 
+
+Phase 4: 0 unrouted;       REAL time: 1 secs 
+
+Total REAL time to Router completion: 1 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "PAR" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  65 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file sema1.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file 'v200.nph' in environment
+C:/Xilinx.
+   "sema1" is an NCD, version 3.1, device xc2s200, package pq208, speed -6
+
+Analysis completed Tue Jul 25 13:12:19 2006
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 0 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd c:\deney7/_ngo -uc pins.ucf -aul -p
+xc2s200-pq208-6 sema1.ngc sema1.ngd 
+
+Reading NGO file 'C:/deney7/sema1.ngc' ...
+
+Applying constraints in "pins.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "sema1.ngd" ...
+
+Writing NGDBUILD log file "sema1.bld"...
+
+NGDBUILD done.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:             1 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           1 out of  2,352    1%
+    Number of Slices containing only related logic:      1 out of      1  100%
+    Number of Slices containing unrelated logic:         0 out of      1    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:         1 out of  4,704    1%
+   Number of bonded IOBs:             5 out of    140    3%
+
+Total equivalent gate count for design:  6
+Additional JTAG gate count for IOBs:  240
+Peak Memory Usage:  96 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "sema1_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: sema1.pcf.
+Loading device for application Rf_Device from file 'v200.nph' in environment
+C:/Xilinx.
+   "sema1" is an NCD, version 3.1, device xc2s200, package pq208, speed -6
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000
+Celsius)
+Initializing voltage to 2.375 Volts. (default - Range: 2.375 to 2.625 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.27 2005-01-22".
+
+
+Device Utilization Summary:
+
+   Number of External IOBs             5 out of 140     3%
+      Number of LOCed IOBs             5 out of 5     100%
+
+   Number of SLICEs                    1 out of 2352    1%
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98968b) REAL time: 0 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.23
+Phase 3.23 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.3
+Phase 4.3 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.5
+Phase 5.5 (Checksum:2faf07b) REAL time: 0 secs 
+
+Phase 6.8
+.
+Phase 6.8 (Checksum:98bb0f) REAL time: 0 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 0 secs 
+
+Phase 8.18
+Phase 8.18 (Checksum:4c4b3f8) REAL time: 0 secs 
+
+Phase 9.5
+Phase 9.5 (Checksum:55d4a77) REAL time: 0 secs 
+
+Writing design to file sema1.ncd
+
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+Starting Router
+
+Phase 1: 5 unrouted;       REAL time: 0 secs 
+
+Phase 2: 5 unrouted;       REAL time: 0 secs 
+
+Phase 3: 2 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "PAR" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  65 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file sema1.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file 'v200.nph' in environment
+C:/Xilinx.
+   "sema1" is an NCD, version 3.1, device xc2s200, package pq208, speed -6
+
+Analysis completed Tue Jul 25 13:16:47 2006
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 0 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sema2.vf"
+Module <M2_1_MXILINX_sema2> compiled
+Module <sema2> compiled
+No errors in compilation
+Analysis of file <"sema2.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <sema2>.
+Module <sema2> is correct for synthesis.
+ 
+    Set user-defined property "HU_SET =  XLXI_1_0" for instance <XLXI_1> in unit <sema2>.
+    Set user-defined property "HU_SET =  XLXI_2_1" for instance <XLXI_2> in unit <sema2>.
+    Set user-defined property "HU_SET =  XLXI_3_2" for instance <XLXI_3> in unit <sema2>.
+Analyzing module <M2_1_MXILINX_sema2>.
+Module <M2_1_MXILINX_sema2> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <M2_1_MXILINX_sema2>.
+    Related source file is "sema2.vf".
+Unit <M2_1_MXILINX_sema2> synthesized.
+
+
+Synthesizing Unit <sema2>.
+    Related source file is "sema2.vf".
+Unit <sema2> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sema2> ...
+
+Optimizing unit <M2_1_MXILINX_sema2> ...
+Loading device for application Rf_Device from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sema2, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of bonded IOBs:                  5  out of    144     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 13.112ns
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd c:\deney7/_ngo -uc pins.ucf -aul -p
+xc2s200-pq208-6 sema2.ngc sema2.ngd 
+
+Reading NGO file 'C:/deney7/sema2.ngc' ...
+
+Applying constraints in "pins.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "sema2.ngd" ...
+
+Writing NGDBUILD log file "sema2.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:             1 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           1 out of  2,352    1%
+    Number of Slices containing only related logic:      1 out of      1  100%
+    Number of Slices containing unrelated logic:         0 out of      1    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:         1 out of  4,704    1%
+   Number of bonded IOBs:             5 out of    140    3%
+
+Total equivalent gate count for design:  6
+Additional JTAG gate count for IOBs:  240
+Peak Memory Usage:  96 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "sema2_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: sema2.pcf.
+Loading device for application Rf_Device from file 'v200.nph' in environment
+C:/Xilinx.
+   "sema2" is an NCD, version 3.1, device xc2s200, package pq208, speed -6
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000
+Celsius)
+Initializing voltage to 2.375 Volts. (default - Range: 2.375 to 2.625 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.27 2005-01-22".
+
+
+Device Utilization Summary:
+
+   Number of External IOBs             5 out of 140     3%
+      Number of LOCed IOBs             5 out of 5     100%
+
+   Number of SLICEs                    1 out of 2352    1%
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98968b) REAL time: 0 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.23
+Phase 3.23 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.3
+Phase 4.3 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.5
+Phase 5.5 (Checksum:2faf07b) REAL time: 0 secs 
+
+Phase 6.8
+.
+Phase 6.8 (Checksum:98bb0f) REAL time: 0 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 0 secs 
+
+Phase 8.18
+Phase 8.18 (Checksum:4c4b3f8) REAL time: 0 secs 
+
+Phase 9.5
+Phase 9.5 (Checksum:55d4a77) REAL time: 0 secs 
+
+Writing design to file sema2.ncd
+
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+Starting Router
+
+Phase 1: 5 unrouted;       REAL time: 0 secs 
+
+Phase 2: 5 unrouted;       REAL time: 0 secs 
+
+Phase 3: 2 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "PAR" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  65 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file sema2.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file 'v200.nph' in environment
+C:/Xilinx.
+   "sema2" is an NCD, version 3.1, device xc2s200, package pq208, speed -6
+
+Analysis completed Tue Jul 25 13:18:11 2006
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 0 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sema3.vf"
+Module <M2_1E_MXILINX_sema3> compiled
+Module <M4_1E_MXILINX_sema3> compiled
+Module <D2_4E_MXILINX_sema3> compiled
+Module <sema3> compiled
+No errors in compilation
+Analysis of file <"sema3.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <sema3>.
+Module <sema3> is correct for synthesis.
+ 
+    Set user-defined property "HU_SET =  XLXI_1_2" for instance <XLXI_1> in unit <sema3>.
+    Set user-defined property "HU_SET =  XLXI_2_3" for instance <XLXI_2> in unit <sema3>.
+Analyzing module <D2_4E_MXILINX_sema3>.
+Module <D2_4E_MXILINX_sema3> is correct for synthesis.
+ 
+Analyzing module <M4_1E_MXILINX_sema3>.
+Module <M4_1E_MXILINX_sema3> is correct for synthesis.
+ 
+    Set user-defined property "HU_SET =  I_M01_1" for instance <I_M01> in unit <M4_1E_MXILINX_sema3>.
+    Set user-defined property "HU_SET =  I_M23_0" for instance <I_M23> in unit <M4_1E_MXILINX_sema3>.
+Analyzing module <M2_1E_MXILINX_sema3>.
+Module <M2_1E_MXILINX_sema3> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <M2_1E_MXILINX_sema3>.
+    Related source file is "sema3.vf".
+Unit <M2_1E_MXILINX_sema3> synthesized.
+
+
+Synthesizing Unit <M4_1E_MXILINX_sema3>.
+    Related source file is "sema3.vf".
+Unit <M4_1E_MXILINX_sema3> synthesized.
+
+
+Synthesizing Unit <D2_4E_MXILINX_sema3>.
+    Related source file is "sema3.vf".
+Unit <D2_4E_MXILINX_sema3> synthesized.
+
+
+Synthesizing Unit <sema3>.
+    Related source file is "sema3.vf".
+Unit <sema3> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sema3> ...
+
+Optimizing unit <D2_4E_MXILINX_sema3> ...
+
+Optimizing unit <M2_1E_MXILINX_sema3> ...
+
+Optimizing unit <M4_1E_MXILINX_sema3> ...
+Loading device for application Rf_Device from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sema3, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                       1  out of   2352     0%  
+ Number of 4 input LUTs:                 2  out of   4704     0%  
+ Number of bonded IOBs:                  5  out of    144     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 13.535ns
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd c:\deney7/_ngo -uc pins.ucf -aul -p
+xc2s200-pq208-6 sema3.ngc sema3.ngd 
+
+Reading NGO file 'C:/deney7/sema3.ngc' ...
+
+Applying constraints in "pins.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "sema3.ngd" ...
+
+Writing NGDBUILD log file "sema3.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:             2 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           1 out of  2,352    1%
+    Number of Slices containing only related logic:      1 out of      1  100%
+    Number of Slices containing unrelated logic:         0 out of      1    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:         2 out of  4,704    1%
+   Number of bonded IOBs:             5 out of    140    3%
+
+Total equivalent gate count for design:  15
+Additional JTAG gate count for IOBs:  240
+Peak Memory Usage:  96 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "sema3_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: sema3.pcf.
+Loading device for application Rf_Device from file 'v200.nph' in environment
+C:/Xilinx.
+   "sema3" is an NCD, version 3.1, device xc2s200, package pq208, speed -6
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000
+Celsius)
+Initializing voltage to 2.375 Volts. (default - Range: 2.375 to 2.625 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.27 2005-01-22".
+
+
+Device Utilization Summary:
+
+   Number of External IOBs             5 out of 140     3%
+      Number of LOCed IOBs             5 out of 5     100%
+
+   Number of SLICEs                    1 out of 2352    1%
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:98968b) REAL time: 0 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 0 secs 
+
+Phase 3.23
+Phase 3.23 (Checksum:1c9c37d) REAL time: 0 secs 
+
+Phase 4.3
+Phase 4.3 (Checksum:26259fc) REAL time: 0 secs 
+
+Phase 5.5
+Phase 5.5 (Checksum:2faf07b) REAL time: 0 secs 
+
+Phase 6.8
+.
+Phase 6.8 (Checksum:98b8f3) REAL time: 0 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 0 secs 
+
+Phase 8.18
+Phase 8.18 (Checksum:4c4b3f8) REAL time: 0 secs 
+
+Phase 9.5
+Phase 9.5 (Checksum:55d4a77) REAL time: 0 secs 
+
+Writing design to file sema3.ncd
+
+
+Total REAL time to Placer completion: 0 secs 
+Total CPU time to Placer completion: 0 secs 
+
+Starting Router
+
+Phase 1: 8 unrouted;       REAL time: 0 secs 
+
+Phase 2: 8 unrouted;       REAL time: 0 secs 
+
+Phase 3: 1 unrouted;       REAL time: 0 secs 
+
+Phase 4: 0 unrouted;       REAL time: 0 secs 
+
+Total REAL time to Router completion: 0 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "PAR" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 secs 
+Total CPU time to PAR completion: 0 secs 
+
+Peak Memory Usage:  65 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file sema3.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file 'v200.nph' in environment
+C:/Xilinx.
+   "sema3" is an NCD, version 3.1, device xc2s200, package pq208, speed -6
+
+Analysis completed Tue Jul 25 13:20:29 2006
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 0 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+

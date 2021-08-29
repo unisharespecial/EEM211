@@ -1,0 +1,55 @@
+         ps       /lab4test2/ld0  /lab4test2/ld4  /lab4test2/sw5      /lab4test2/TX_ERROR                  
+          delta       /lab4test2/ld1  /lab4test2/sw0  /lab4test2/sw6                                       
+                          /lab4test2/ld2  /lab4test2/sw4  /lab4test2/sw3                                   
+                              /lab4test2/ld3  /lab4test2/sw1  /lab4test2/sw7                               
+                                   /lab4test2/btn0  /lab4test2/sw2                                         
+          0  +0              StX StX StX StX StX 0 0   0   0   0 0 0   0   0            0 
+          0  +3              St0 StX StX StX St0 0 0   0   0   0 0 0   0   0            0 
+          0  +5              St0 St0 St0 St0 St0 0 0   0   0   0 0 0   0   0            0 
+     100000  +0              St0 St0 St0 St0 St0 1 0   0   0   0 0 0   0   1            0 
+     100000  +3              St1 St0 St0 St1 St0 1 0   0   0   0 0 0   0   1            0 
+     200000  +0              St1 St0 St0 St1 St0 1 0   1   0   1 1 1   0   1            0 
+     200000  +3              St1 St1 St1 St1 St0 1 0   1   0   1 1 1   0   1            0 
+     200000  +4              St0 St1 St0 St1 St0 1 0   1   0   1 1 1   0   1            0 
+     200000  +5              St0 St1 St0 St1 St1 1 0   1   0   1 1 1   0   1            0 
+     200000  +6              St0 St0 St0 St0 St1 1 0   1   0   1 1 1   0   1            0 
+     200000  +7              St0 St0 St1 St0 St1 1 0   1   0   1 1 1   0   1            0 
+     300000  +0              St0 St0 St1 St0 St1 0 1   0   0   1 0 1   1   0            0 
+     300000  +3              St0 St0 St0 St0 St0 0 1   0   0   1 0 1   1   0            0 
+     300000  +4              St1 St0 St0 St0 St1 0 1   0   0   1 0 1   1   0            0 
+     300000  +5              St1 St0 St0 St0 St0 0 1   0   0   1 0 1   1   0            0 
+     300000  +6              St1 St1 St0 St1 St1 0 1   0   0   1 0 1   1   0            0 
+     300000  +7              St1 St1 St0 St0 St1 0 1   0   0   1 0 1   1   0            0 
+     300000  +8              St1 St1 St1 St0 St1 0 1   0   0   1 0 1   1   0            0 
+     300000  +9              St1 St1 St1 St0 St0 0 1   0   0   1 0 1   1   0            0 
+     300000 +10              St1 St1 St1 St1 St0 0 1   0   0   1 0 1   1   0            0 
+     400000  +0              St1 St1 St1 St1 St0 0 0   0   0   0 0 0   1   1            0 
+     400000  +3              St0 St0 St0 St1 St1 0 0   0   0   0 0 0   1   1            0 
+     400000  +4              St0 St0 St0 St0 St1 0 0   0   0   0 0 0   1   1            0 
+     500000  +0              St0 St0 St0 St0 St1 1 0   1   1   1 1 0   0   0            0 
+     500000  +3              St1 St1 St1 St0 St0 1 0   1   1   1 1 0   0   0            0 
+     500000  +4              St0 St0 St1 St0 St0 1 0   1   1   1 1 0   0   0            0 
+     500000  +5              St0 St1 St1 St0 St0 1 0   1   1   1 1 0   0   0            0 
+     500000  +6              St0 St1 St0 St0 St0 1 0   1   1   1 1 0   0   0            0 
+     500000  +7              St0 St1 St0 St1 St0 1 0   1   1   1 1 0   0   0            0 
+     600000  +0              St0 St1 St0 St1 St0 1 1   0   0   0 0 1   1   1            0 
+     600000  +3              St0 St0 St0 St1 St1 1 1   0   0   0 0 1   1   1            0 
+     600000  +4              St0 St1 St0 St1 St1 1 1   0   0   0 0 1   1   1            0 
+     600000  +5              St0 St0 St0 St0 St0 1 1   0   0   0 0 1   1   1            0 
+     600000  +6              St0 St1 St1 St1 St1 1 1   0   0   0 0 1   1   1            0 
+     600000  +7              St0 St1 St1 St0 St0 1 1   0   0   0 0 1   1   1            0 
+     600000  +8              St0 St1 St1 St0 St1 1 1   0   0   0 0 1   1   1            0 
+     700000  +0              St0 St1 St1 St0 St1 0 0   0   0   0 0 1   1   1            0 
+     700000  +5              St0 St0 St1 St0 St1 0 0   0   0   0 0 1   1   1            0 
+     800000  +0              St0 St0 St1 St0 St1 1 0   1   0   1 1 1   0   0            0 
+     800000  +3              St1 St1 St1 St0 St0 1 0   1   0   1 1 1   0   0            0 
+     800000  +4              St0 St1 St0 St0 St0 1 0   1   0   1 1 1   0   0            0 
+     800000  +5              St0 St1 St0 St1 St0 1 0   1   0   1 1 1   0   0            0 
+     800000  +6              St0 St0 St0 St1 St0 1 0   1   0   1 1 1   0   0            0 
+     800000  +7              St0 St0 St1 St1 St0 1 0   1   0   1 1 1   0   0            0 
+     900000  +0              St0 St0 St1 St1 St0 0 1   0   0   0 0 1   0   0            0 
+     900000  +3              St0 St0 St0 St1 St0 0 1   0   0   0 0 1   0   0            0 
+     900000  +4              St1 St1 St0 St1 St0 0 1   0   0   0 0 1   0   0            0 
+     900000  +5              St1 St0 St0 St0 St0 0 1   0   0   0 0 1   0   0            0 
+     900000  +6              St1 St0 St1 St1 St0 0 1   0   0   0 0 1   0   0            0 
+     900000  +7              St1 St0 St1 St0 St0 0 1   0   0   0 0 1   0   0            0 

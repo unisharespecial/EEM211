@@ -1,0 +1,69 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : sch2verilog
+//  /   /         Filename : sema1.vf
+// /___/   /\     Timestamp : 07/25/2006 12:26:24
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:/Xilinx/bin/nt/sch2verilog.exe -intstyle ise -family spartan2 -w sema1.sch sema1.vf
+//Design Name: sema1
+//Device: spartan2
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module sema1(a, 
+             b, 
+             c, 
+             d, 
+             F);
+
+    input a;
+    input b;
+    input c;
+    input d;
+   output F;
+   
+   wire XLXN_1;
+   wire XLXN_4;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   
+   AND2 XLXI_1 (.I0(d), 
+                .I1(a), 
+                .O(XLXN_10));
+   AND2 XLXI_2 (.I0(XLXN_12), 
+                .I1(d), 
+                .O(XLXN_11));
+   AND2 XLXI_3 (.I0(XLXN_1), 
+                .I1(XLXN_12), 
+                .O(XLXN_7));
+   AND2 XLXI_4 (.I0(XLXN_4), 
+                .I1(XLXN_7), 
+                .O(XLXN_8));
+   OR2 XLXI_5 (.I0(XLXN_11), 
+               .I1(XLXN_10), 
+               .O(XLXN_9));
+   OR2 XLXI_6 (.I0(XLXN_8), 
+               .I1(XLXN_9), 
+               .O(F));
+   INV XLXI_7 (.I(a), 
+               .O(XLXN_4));
+   INV XLXI_8 (.I(c), 
+               .O(XLXN_12));
+   INV XLXI_9 (.I(b), 
+               .O(XLXN_1));
+endmodule

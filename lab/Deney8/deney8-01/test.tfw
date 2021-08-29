@@ -1,0 +1,71 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : ISE WebPACK
+//  /   /         Filename : test.tfw
+// /___/   /\     Timestamp : Tue Dec 19 19:17:45 2006
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: test
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module test;
+    reg mclk = 1'b0;
+    wire F;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 0;
+
+    initial    // Clock process for mclk
+    begin
+        #OFFSET;
+        forever
+        begin
+            mclk = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) mclk = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    sematik1 UUT (
+        .mclk(mclk),
+        .F(F));
+
+        integer TX_ERROR = 0;
+        
+        initial begin  // Open the results file...
+            #2200 // Final time:  2200 ns
+            if (TX_ERROR == 0) begin
+                $display("No errors or warnings.");
+                end else begin
+                    $display("%d errors found in simulation.", TX_ERROR);
+                    end
+                    $stop;
+                end
+
+                initial begin
+                end
+
+                task CHECK_F;
+                    input NEXT_F;
+
+                    #0 begin
+                        if (NEXT_F !== F) begin
+                            $display("Error at time=%dns F=%b, expected=%b", $time, F, NEXT_F);
+                            TX_ERROR = TX_ERROR + 1;
+                        end
+                    end
+                endtask
+
+            endmodule
+

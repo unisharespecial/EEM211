@@ -1,0 +1,106 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : sch2verilog
+//  /   /         Filename : sematik03.vf
+// /___/   /\     Timestamp : 12/19/2006 20:20:52
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:/Xilinx/bin/nt/sch2verilog.exe -intstyle ise -family spartan2 -w sematik03.sch sematik03.vf
+//Design Name: sematik03
+//Device: spartan2
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FJKC_MXILINX_sematik03(C, 
+                              CLR, 
+                              J, 
+                              K, 
+                              Q);
+
+    input C;
+    input CLR;
+    input J;
+    input K;
+   output Q;
+   
+   wire AD;
+   wire A0;
+   wire A1;
+   wire A2;
+   
+   FDC I_36_32 (.C(C), 
+                .CLR(CLR), 
+                .D(AD), 
+                .Q(Q));
+   // synthesis attribute RLOC of I_36_32 is "R0C0.S0"
+   // synthesis attribute INIT of I_36_32 is "0"
+   // synopsys translate_off
+   defparam I_36_32.INIT = 1'b0;
+   // synopsys translate_on
+   AND3B2 I_36_37 (.I0(J), 
+                   .I1(K), 
+                   .I2(Q), 
+                   .O(A0));
+   AND3B1 I_36_40 (.I0(Q), 
+                   .I1(K), 
+                   .I2(J), 
+                   .O(A1));
+   OR3 I_36_41 (.I0(A2), 
+                .I1(A1), 
+                .I2(A0), 
+                .O(AD));
+   AND2B1 I_36_43 (.I0(K), 
+                   .I1(J), 
+                   .O(A2));
+endmodule
+`timescale 1ns / 1ps
+
+module sematik03(mclk, 
+                 Q);
+
+    input mclk;
+   output [2:0] Q;
+   
+   wire XLXN_89;
+   wire XLXN_92;
+   wire XLXN_93;
+   wire XLXN_102;
+   wire XLXN_105;
+   
+   FJKC_MXILINX_sematik03 XLXI_20 (.C(mclk), 
+                                   .CLR(XLXN_105), 
+                                   .J(XLXN_102), 
+                                   .K(XLXN_102), 
+                                   .Q(XLXN_89));
+   // synthesis attribute HU_SET of XLXI_20 is "XLXI_20_2"
+   FJKC_MXILINX_sematik03 XLXI_21 (.C(XLXN_89), 
+                                   .CLR(XLXN_105), 
+                                   .J(XLXN_102), 
+                                   .K(XLXN_102), 
+                                   .Q(XLXN_92));
+   // synthesis attribute HU_SET of XLXI_21 is "XLXI_21_1"
+   FJKC_MXILINX_sematik03 XLXI_22 (.C(XLXN_92), 
+                                   .CLR(XLXN_105), 
+                                   .J(XLXN_102), 
+                                   .K(XLXN_102), 
+                                   .Q(XLXN_93));
+   // synthesis attribute HU_SET of XLXI_22 is "XLXI_22_0"
+   PULLDOWN XLXI_24 (.O(XLXN_105));
+   PULLUP XLXI_28 (.O(XLXN_102));
+   INV XLXI_29 (.I(XLXN_89), 
+                .O(Q[0]));
+   INV XLXI_30 (.I(XLXN_92), 
+                .O(Q[1]));
+   INV XLXI_31 (.I(XLXN_93), 
+                .O(Q[2]));
+endmodule

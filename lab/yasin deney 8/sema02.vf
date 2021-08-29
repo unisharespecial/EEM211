@@ -1,0 +1,103 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : sch2verilog
+//  /   /         Filename : sema02.vf
+// /___/   /\     Timestamp : 12/13/2006 15:04:54
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:/Xilinx/bin/nt/sch2verilog.exe -intstyle ise -family spartan2 -w sema02.sch sema02.vf
+//Design Name: sema02
+//Device: spartan2
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module FJKC_MXILINX_sema02(C, 
+                           CLR, 
+                           J, 
+                           K, 
+                           Q);
+
+    input C;
+    input CLR;
+    input J;
+    input K;
+   output Q;
+   
+   wire AD;
+   wire A0;
+   wire A1;
+   wire A2;
+   
+   FDC I_36_32 (.C(C), 
+                .CLR(CLR), 
+                .D(AD), 
+                .Q(Q));
+   // synthesis attribute RLOC of I_36_32 is "R0C0.S0"
+   // synthesis attribute INIT of I_36_32 is "0"
+   // synopsys translate_off
+   defparam I_36_32.INIT = 1'b0;
+   // synopsys translate_on
+   AND3B2 I_36_37 (.I0(J), 
+                   .I1(K), 
+                   .I2(Q), 
+                   .O(A0));
+   AND3B1 I_36_40 (.I0(Q), 
+                   .I1(K), 
+                   .I2(J), 
+                   .O(A1));
+   OR3 I_36_41 (.I0(A2), 
+                .I1(A1), 
+                .I2(A0), 
+                .O(AD));
+   AND2B1 I_36_43 (.I0(K), 
+                   .I1(J), 
+                   .O(A2));
+endmodule
+`timescale 1ns / 1ps
+
+module sema02(mclk, 
+              Q);
+
+    input mclk;
+   output [3:0] Q;
+   
+   wire XLXN_3;
+   wire XLXN_19;
+   
+   FJKC_MXILINX_sema02 XLXI_2 (.C(mclk), 
+                               .CLR(XLXN_3), 
+                               .J(XLXN_19), 
+                               .K(XLXN_19), 
+                               .Q(Q[0]));
+   // synthesis attribute HU_SET of XLXI_2 is "XLXI_2_0"
+   FJKC_MXILINX_sema02 XLXI_3 (.C(Q[0]), 
+                               .CLR(XLXN_3), 
+                               .J(XLXN_19), 
+                               .K(XLXN_19), 
+                               .Q(Q[1]));
+   // synthesis attribute HU_SET of XLXI_3 is "XLXI_3_1"
+   FJKC_MXILINX_sema02 XLXI_4 (.C(Q[1]), 
+                               .CLR(XLXN_3), 
+                               .J(XLXN_19), 
+                               .K(XLXN_19), 
+                               .Q(Q[2]));
+   // synthesis attribute HU_SET of XLXI_4 is "XLXI_4_2"
+   FJKC_MXILINX_sema02 XLXI_5 (.C(Q[2]), 
+                               .CLR(XLXN_3), 
+                               .J(XLXN_19), 
+                               .K(XLXN_19), 
+                               .Q(Q[3]));
+   // synthesis attribute HU_SET of XLXI_5 is "XLXI_5_3"
+   PULLDOWN XLXI_6 (.O(XLXN_3));
+   PULLUP XLXI_7 (.O(XLXN_19));
+endmodule

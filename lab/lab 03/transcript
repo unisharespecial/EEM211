@@ -1,0 +1,31 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do sss.fdo 
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module aaa
+# 
+# Top level modules:
+# 	aaa
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module sss
+# 
+# Top level modules:
+# 	sss
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps sss glbl 
+# Loading work.sss
+# Loading work.aaa
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND2
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.INV
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.OR2
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+# No errors or warnings.
+# Break at sss.tfw line 43
+# Simulation Breakpoint: Break at sss.tfw line 43
+# MACRO ./sss.fdo PAUSED at line 14

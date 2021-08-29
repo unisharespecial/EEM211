@@ -1,0 +1,60 @@
+m255
+13
+cModel Technology
+dF:\2006-2007\eem211\Lab6\Lab6-02
+vcarrygen
+I]YdR]N_JCEdHId8IKnf0H3
+Vb0C0o]BEI9nY<nPNbg<M`3
+w1163520022
+Ffourbitscarrylookahead.v
+L0 30
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vfourbitscarrylookahead
+I_V;UOLIMK11Hfem3RE]S82
+VnUIX6ZI`IglcA3Qd^d=3k0
+w1163520022
+Ffourbitscarrylookahead.v
+L0 43
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+w1107956757
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vPGgen
+IoXL_9OQ6kF7M7lZm0f:h90
+Vk1NVYcEMGhm><;f4hT]J^1
+w1163520022
+Ffourbitscarrylookahead.v
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@p@ggen
+vtest2
+IS?m^Kc6ONRSn]DhE`TmSX2
+VK=Un9LU_R^kYXLK9mg=Q@1
+w1163596300
+Ftest2.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000

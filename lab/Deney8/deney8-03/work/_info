@@ -1,0 +1,65 @@
+m255
+13
+cModel Technology
+dC:\Documents and Settings\user\Desktop\Deney8\deney8-03
+vFJKC_MXILINX_sematik03
+ITUZG`XW18gL^lbFPa3Vdb3
+VLM2F_VFA:fKSFEX[@gNNe1
+dC:\Documents and Settings\user\Desktop\say lab\Deney8\deney8-03
+w1166552452
+Fsematik03.vf
+L0 24
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@f@j@k@c_@m@x@i@l@i@n@x_sematik03
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+dC:\Documents and Settings\user\Desktop\say lab\Deney8\deney8-03
+w1107956757
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vsematik03
+IO000a7H2kUFbW@Nigl>?b2
+VJ9]oU^jA`h^0jeo<mMO5^1
+dC:\Documents and Settings\user\Desktop\say lab\Deney8\deney8-03
+w1166552452
+Fsematik03.vf
+L0 68
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vTEST
+Ik3M[eUH:DXj>Y_lJ[6O?e0
+V[j8Tl9AXR<e;4IoMPWP=92
+w1165951482
+FTEST.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@t@e@s@t
+vtest
+ImU[9JVnZ@8LlbDGE5bzF:0
+V<n8E`6Y]h6JHYmZ2cHfeL0
+dC:\Documents and Settings\user\Desktop\say lab\Deney8\deney8-03
+w1166552453
+Ftest.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000

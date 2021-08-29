@@ -1,0 +1,49 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : sch2verilog
+//  /   /         Filename : deny3sema.vf
+// /___/   /\     Timestamp : 07/07/2006 13:39:27
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:/Xilinx/bin/nt/sch2verilog.exe -intstyle ise -family spartan2 -w deny3sema.sch deny3sema.vf
+//Design Name: deny3sema
+//Device: spartan2
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module deny3sema(a, 
+                 b, 
+                 c, 
+                 F);
+
+    input a;
+    input b;
+    input c;
+   output F;
+   
+   wire XLXN_1;
+   wire XLXN_2;
+   wire XLXN_3;
+   
+   AND2 XLXI_1 (.I0(b), 
+                .I1(a), 
+                .O(XLXN_1));
+   AND2 XLXI_2 (.I0(c), 
+                .I1(XLXN_2), 
+                .O(XLXN_3));
+   OR2 XLXI_3 (.I0(XLXN_3), 
+               .I1(XLXN_1), 
+               .O(F));
+   INV XLXI_4 (.I(b), 
+               .O(XLXN_2));
+endmodule

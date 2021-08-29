@@ -1,0 +1,78 @@
+iMPACT Version: H.38
+iMPACT log file started on 2006/11/15 14:45:52
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setMode -bs
+GUI --- Boundary-Scan Mode selected
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+AutoDetecting cable. Please wait.
+CB_PROGRESS_START - Starting Operation.
+Connecting to cable (USB Port).
+Cable connection failed.
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 6.2.2.2. LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection established.
+CB_PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : Identify
+PROGRESS_START - Starting Operation.
+Identifying chain contents ....'1': : Manufacturer's ID =Xilinx xcf02s, Version : 0
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/xcf/data/xcf02s.bsd...
+Reading C:/Xilinx/xcf/data/xcf02s.bsd...
+INFO:iMPACT:501 - '1': Added Device xcf02s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+'2': : Manufacturer's ID =Xilinx xc2s200, Version : 8
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/spartan2/data/xc2s200.bsd...
+Reading C:/Xilinx/spartan2/data/xc2s200.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2s200 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+done.
+Validating chain...
+Boundary-scan chain validated successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : setAttribute -position 1 -attr configFileName -value "F:\2006-2007\eem211\Lab6\Lab6-01\fourbitadder.bit"
+'1': Loading file 'F:\2006-2007\eem211\Lab6\Lab6-01\fourbitadder.bit' ...
+done.
+INFO:iMPACT:501 - '1': Added Device xc2s200 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : Program -p 1 
+PROGRESS_START - Starting Operation.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1':Programming  device...
+done.
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT:580 - '1':Checking done pin ....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      7 sec.
+*****   Closing iMPACT program.   *****
+----------------------------------------------------------------------
+----------------------------------------------------------------------

@@ -1,0 +1,53 @@
+m255
+13
+cModel Technology
+dC:\Documents and Settings\user\Desktop\Deney8\deney8-02
+vFJKC_MXILINX_sematik02
+IhT_A`gkRgU>3B<JMj:e153
+Vc<C>3STzfHK;?LLPL6lC20
+dC:\Documents and Settings\user\Desktop\say lab\Deney8\deney8-02
+w1165949730
+Fsematik02.vf
+L0 24
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@f@j@k@c_@m@x@i@l@i@n@x_sematik02
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+dC:\Documents and Settings\user\Desktop\say lab\Deney8\deney8-02
+w1107956757
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vsematik02
+IfS2g[hz2N8H^MA;GD[dj<3
+VXAO2?Y3VRY[P:>^fGAX[S0
+dC:\Documents and Settings\user\Desktop\say lab\Deney8\deney8-02
+w1165949730
+Fsematik02.vf
+L0 68
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vtest
+IQ6nMYOlNG;>zm]A=RJF9A1
+V<n8E`6Y]h6JHYmZ2cHfeL0
+dC:\Documents and Settings\user\Desktop\say lab\Deney8\deney8-02
+w1166551512
+Ftest.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000

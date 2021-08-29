@@ -1,0 +1,352 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+
+
+Started process "Synthesize".
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "fourbitadder.v"
+Module <halfadder> compiled
+Module <tamtoplayici> compiled
+Module <fourbitadder> compiled
+No errors in compilation
+Analysis of file <"fourbitadder.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <fourbitadder>.
+Module <fourbitadder> is correct for synthesis.
+ 
+Analyzing module <tamtoplayici>.
+WARNING:Xst:916 - "fourbitadder.v" line 34: Delay is ignored for synthesis.
+Module <tamtoplayici> is correct for synthesis.
+ 
+Analyzing module <halfadder>.
+WARNING:Xst:916 - "fourbitadder.v" line 24: Delay is ignored for synthesis.
+WARNING:Xst:916 - "fourbitadder.v" line 25: Delay is ignored for synthesis.
+Module <halfadder> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <halfadder>.
+    Related source file is "fourbitadder.v".
+    Found 1-bit xor2 for signal <S>.
+Unit <halfadder> synthesized.
+
+
+Synthesizing Unit <tamtoplayici>.
+    Related source file is "fourbitadder.v".
+Unit <tamtoplayici> synthesized.
+
+
+Synthesizing Unit <fourbitadder>.
+    Related source file is "fourbitadder.v".
+Unit <fourbitadder> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                             : 8
+ 1-bit xor2                        : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <fourbitadder> ...
+Loading device for application Rf_Device from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block fourbitadder, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                       5  out of   2352     0%  
+ Number of 4 input LUTs:                 9  out of   4704     0%  
+ Number of bonded IOBs:                 14  out of    144     9%  
+
+
+=========================================================================
+TIMING REPORT
+
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 13.454ns
+
+=========================================================================
+
+
+
+
+Started process "Translate".
+
+
+Command Line: ngdbuild -intstyle ise -dd f:\2006-2007\eem211\lab6\lab6-01/_ngo
+-uc pins.ucf -aul -p xc2s200-pq208-6 fourbitadder.ngc fourbitadder.ngd 
+
+Reading NGO file 'F:/2006-2007/eem211/Lab6/Lab6-01/fourbitadder.ngc' ...
+
+Applying constraints in "pins.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Writing NGD file "fourbitadder.ngd" ...
+
+Writing NGDBUILD log file "fourbitadder.bld"...
+
+NGDBUILD done.
+
+
+
+
+Started process "Map".
+
+Using target part "2s200pq208-6".
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Running related packing...
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    0
+Logic Utilization:
+  Number of 4 input LUTs:             9 out of  4,704    1%
+Logic Distribution:
+    Number of occupied Slices:                           6 out of  2,352    1%
+    Number of Slices containing only related logic:      6 out of      6  100%
+    Number of Slices containing unrelated logic:         0 out of      6    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number of 4 input LUTs:         9 out of  4,704    1%
+   Number of bonded IOBs:            14 out of    140   10%
+
+Total equivalent gate count for design:  54
+Additional JTAG gate count for IOBs:  672
+Peak Memory Usage:  95 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "fourbitadder_map.mrp" for details.
+
+
+
+
+Started process "Place & Route".
+
+
+
+
+Constraints file: fourbitadder.pcf.
+Loading device for application Rf_Device from file 'v200.nph' in environment
+C:/Xilinx.
+   "fourbitadder" is an NCD, version 3.1, device xc2s200, package pq208, speed
+-6
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000
+Celsius)
+Initializing voltage to 2.375 Volts. (default - Range: 2.375 to 2.625 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.27 2005-01-22".
+
+
+Device Utilization Summary:
+
+   Number of External IOBs            14 out of 140    10%
+      Number of LOCed IOBs            13 out of 14     92%
+
+   Number of SLICEs                    6 out of 2352    1%
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Starting Placer
+
+Phase 1.1
+Phase 1.1 (Checksum:9896a7) REAL time: 1 secs 
+
+Phase 2.31
+Phase 2.31 (Checksum:1312cfe) REAL time: 1 secs 
+
+Phase 3.23
+Phase 3.23 (Checksum:1c9c37d) REAL time: 1 secs 
+
+Phase 4.3
+Phase 4.3 (Checksum:26259fc) REAL time: 1 secs 
+
+Phase 5.5
+Phase 5.5 (Checksum:2faf07b) REAL time: 1 secs 
+
+Phase 6.8
+.
+Phase 6.8 (Checksum:9926a3) REAL time: 1 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 1 secs 
+
+Phase 8.18
+Phase 8.18 (Checksum:4c4b3f8) REAL time: 1 secs 
+
+Phase 9.5
+Phase 9.5 (Checksum:55d4a77) REAL time: 1 secs 
+
+Writing design to file fourbitadder.ncd
+
+
+Total REAL time to Placer completion: 2 secs 
+Total CPU time to Placer completion: 0 secs 
+
+Starting Router
+
+Phase 1: 32 unrouted;       REAL time: 2 secs 
+
+Phase 2: 32 unrouted;       REAL time: 2 secs 
+
+Phase 3: 7 unrouted;       REAL time: 2 secs 
+
+Phase 4: 0 unrouted;       REAL time: 2 secs 
+
+Total REAL time to Router completion: 2 secs 
+Total CPU time to Router completion: 0 secs 
+
+Generating "PAR" statistics.
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 5 secs 
+Total CPU time to PAR completion: 1 secs 
+
+Peak Memory Usage:  65 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Number of error messages: 0
+Number of warning messages: 0
+Number of info messages: 1
+
+Writing design to file fourbitadder.ncd
+
+
+
+PAR done!
+
+Started process "Generate Post-Place & Route Static Timing".
+
+Loading device for application Rf_Device from file 'v200.nph' in environment
+C:/Xilinx.
+   "fourbitadder" is an NCD, version 3.1, device xc2s200, package pq208, speed
+-6
+
+Analysis completed Wed Nov 15 14:45:29 2006
+--------------------------------------------------------------------------------
+
+Generating Report ...
+
+Number of warnings: 0
+Total time: 2 secs 
+
+
+
+
+
+
+
+Started process "Generate Programming File".
+
+

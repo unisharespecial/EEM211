@@ -1,0 +1,75 @@
+--------------------------------------------------------------------------------
+Release 7.1i Trace H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -ise f:\2006-2007\eem211\lab6\lab6-02\Lab6-02.ise
+-intstyle ise -e 3 -l 3 -s 6 -xml fourbitscarrylookahead
+fourbitscarrylookahead.ncd -o fourbitscarrylookahead.twr
+fourbitscarrylookahead.pcf
+
+
+Design file:              fourbitscarrylookahead.ncd
+Physical constraint file: fourbitscarrylookahead.pcf
+Device,speed:             xc2s200,-6 (PRODUCTION 1.27 2005-01-22)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |S<0>           |   10.539|
+A<0>           |S<1>           |   11.777|
+A<0>           |S<2>           |   12.908|
+A<0>           |S<3>           |   14.295|
+A<0>           |cout           |   13.912|
+A<1>           |S<1>           |   10.286|
+A<1>           |S<2>           |   11.293|
+A<1>           |S<3>           |   12.680|
+A<1>           |cout           |   12.297|
+A<2>           |S<2>           |   10.069|
+A<2>           |S<3>           |   11.654|
+A<2>           |cout           |   11.271|
+A<3>           |S<3>           |   10.806|
+A<3>           |cout           |    9.982|
+B<0>           |S<0>           |    9.760|
+B<0>           |S<1>           |   10.690|
+B<0>           |S<2>           |   11.647|
+B<0>           |S<3>           |   13.034|
+B<0>           |cout           |   12.651|
+B<1>           |S<1>           |   10.968|
+B<1>           |S<2>           |   11.040|
+B<1>           |S<3>           |   12.427|
+B<1>           |cout           |   12.044|
+B<2>           |S<2>           |    9.948|
+B<2>           |S<3>           |   11.195|
+B<2>           |cout           |   10.812|
+B<3>           |S<3>           |   10.289|
+B<3>           |cout           |    9.525|
+cin            |S<0>           |   10.727|
+cin            |S<1>           |   11.958|
+cin            |S<2>           |   12.801|
+cin            |S<3>           |   14.188|
+cin            |cout           |   13.805|
+---------------+---------------+---------+
+
+Analysis completed Wed Nov 15 15:15:56 2006
+--------------------------------------------------------------------------------
+
+
+
+Peak Memory Usage: 68 MB

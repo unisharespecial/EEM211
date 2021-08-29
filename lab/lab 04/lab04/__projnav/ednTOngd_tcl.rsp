@@ -1,0 +1,3 @@
+set ADucfFile {pegasus.ucf}
+set ADbmmFile {}
+set ADcdcFile {}

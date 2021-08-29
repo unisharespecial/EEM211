@@ -1,0 +1,263 @@
+# XST (Creating Lso File) : 
+fourbitadder1.lso
+# xst flow : RunXST
+fourbitadder1_summary.html
+# xst flow : RunXST
+fourbitadder1.syr
+fourbitadder1.prj
+fourbitadder1.sprj
+fourbitadder1.ana
+fourbitadder1.stx
+fourbitadder1.cmd_log
+fourbitadder1.ngc
+fourbitadder1.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"f:\2006-2007\eem211\lab04\lab04/_ngo"
+fourbitadder1.ngd
+fourbitadder1_ngdbuild.nav
+fourbitadder1.bld
+pegasus.ucf.untf
+fourbitadder1.cmd_log
+# Implementation : Map
+fourbitadder1_summary.html
+# Implementation : Map
+fourbitadder1_map.ncd
+fourbitadder1.ngm
+fourbitadder1.pcf
+fourbitadder1.nc1
+fourbitadder1.mrp
+fourbitadder1_map.mrp
+fourbitadder1.mdf
+fourbitadder1.cmd_log
+MAP_NO_GUIDE_FILE_CPF "fourbitadder1"
+fourbitadder1_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+fourbitadder1.twr
+fourbitadder1.twx
+fourbitadder1.tsi
+fourbitadder1.cmd_log
+# Implementation : Place & Route
+fourbitadder1_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+fourbitadder1.ncd
+fourbitadder1.par
+fourbitadder1.pad
+fourbitadder1_pad.txt
+fourbitadder1_pad.csv
+fourbitadder1.pad_txt
+fourbitadder1.dly
+reportgen.log
+fourbitadder1.xpi
+fourbitadder1.grf
+fourbitadder1.itr
+fourbitadder1_last_par.ncd
+fourbitadder1.placed_ncd_tracker
+fourbitadder1.routed_ncd_tracker
+fourbitadder1.cmd_log
+PAR_NO_GUIDE_FILE_CPF "fourbitadder1"
+# Generate Programming File
+__projnav/fourbitadder1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+fourbitadder1.ut
+# Generate Programming File
+fourbitadder1.bgn
+fourbitadder1.rbt
+fourbitadder1.ll
+fourbitadder1.msk
+fourbitadder1.drc
+fourbitadder1.nky
+fourbitadder1.bit
+fourbitadder1.bin
+fourbitadder1.isc
+fourbitadder1.cmd_log
+# Bencher : Creating project file
+lab4test_bencher.prj
+# ProjNav -> New Source -> TBW
+lab4test.vhw
+lab4test.ano
+lab4test.tfw
+lab4test.ant
+# Bencher : Creating project file
+lab4test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+lab4test_bencher.prj
+# Update Bencher Waveform
+__projnav/updateTBW_tcl.rsp
+lab4test.vhw
+lab4test.ano
+lab4test.tfw
+lab4test.ant
+# ModelSim : Simulate Behavioral Verilog Model
+lab4test.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# Configure Device (iMPACT)
+fourbitadder1.prm
+fourbitadder1.isc
+fourbitadder1.svf
+xilinx.sys
+fourbitadder1.mcs
+fourbitadder1.exo
+fourbitadder1.hex
+fourbitadder1.tek
+fourbitadder1.dst
+fourbitadder1.dst_compressed
+fourbitadder1.mpm
+_impact.cmd
+_impact.log
+# Bencher : Creating project file
+lab4-2test_bencher.prj
+# ProjNav -> New Source -> TBW
+lab4-2test.vhw
+lab4-2test.ano
+lab4-2test.tfw
+lab4-2test.ant
+# Bencher : Creating project file
+lab4test2_bencher.prj
+# ProjNav -> New Source -> TBW
+lab4test2.vhw
+lab4test2.ano
+lab4test2.tfw
+lab4test2.ant
+# Bencher : Creating project file
+lab4test2_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+lab4test2_bencher.prj
+# Update Bencher Waveform
+__projnav/updateTBW_tcl.rsp
+lab4test2.vhw
+lab4test2.ano
+lab4test2.tfw
+lab4test2.ant
+# ModelSim : Simulate Behavioral Verilog Model
+lab4test2.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# Bencher : Creating project file
+lab4test2_bencher.prj
+# Update Bencher Waveform
+__projnav/updateTBW_tcl.rsp
+lab4test2.vhw
+lab4test2.ano
+lab4test2.tfw
+lab4test2.ant
+# ModelSim : Simulate Behavioral Verilog Model
+lab4test2.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+fourbitadder2.lso
+# xst flow : RunXST
+fourbitadder2_summary.html
+# xst flow : RunXST
+fourbitadder2.syr
+fourbitadder2.prj
+fourbitadder2.sprj
+fourbitadder2.ana
+fourbitadder2.stx
+fourbitadder2.cmd_log
+fourbitadder2.ngc
+fourbitadder2.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"f:\2006-2007\eem211\lab04\lab04/_ngo"
+fourbitadder2.ngd
+fourbitadder2_ngdbuild.nav
+fourbitadder2.bld
+pegasus.ucf.untf
+fourbitadder2.cmd_log
+# Implementation : Map
+fourbitadder2_summary.html
+# Implementation : Map
+fourbitadder2_map.ncd
+fourbitadder2.ngm
+fourbitadder2.pcf
+fourbitadder2.nc1
+fourbitadder2.mrp
+fourbitadder2_map.mrp
+fourbitadder2.mdf
+fourbitadder2.cmd_log
+MAP_NO_GUIDE_FILE_CPF "fourbitadder2"
+fourbitadder2_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+fourbitadder2.twr
+fourbitadder2.twx
+fourbitadder2.tsi
+fourbitadder2.cmd_log
+# Implementation : Place & Route
+fourbitadder2_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+fourbitadder2.ncd
+fourbitadder2.par
+fourbitadder2.pad
+fourbitadder2_pad.txt
+fourbitadder2_pad.csv
+fourbitadder2.pad_txt
+fourbitadder2.dly
+reportgen.log
+fourbitadder2.xpi
+fourbitadder2.grf
+fourbitadder2.itr
+fourbitadder2_last_par.ncd
+fourbitadder2.placed_ncd_tracker
+fourbitadder2.routed_ncd_tracker
+fourbitadder2.cmd_log
+PAR_NO_GUIDE_FILE_CPF "fourbitadder2"
+# Generate Programming File
+__projnav/fourbitadder2_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+fourbitadder2.ut
+# Generate Programming File
+fourbitadder2.bgn
+fourbitadder2.rbt
+fourbitadder2.ll
+fourbitadder2.msk
+fourbitadder2.drc
+fourbitadder2.nky
+fourbitadder2.bit
+fourbitadder2.bin
+fourbitadder2.isc
+fourbitadder2.cmd_log
+# Configure Device (iMPACT)
+fourbitadder2.prm
+fourbitadder2.isc
+fourbitadder2.svf
+xilinx.sys
+fourbitadder2.mcs
+fourbitadder2.exo
+fourbitadder2.hex
+fourbitadder2.tek
+fourbitadder2.dst
+fourbitadder2.dst_compressed
+fourbitadder2.mpm
+_impact.cmd
+_impact.log
+# Configure Device (iMPACT)
+fourbitadder2.prm
+fourbitadder2.isc
+fourbitadder2.svf
+xilinx.sys
+fourbitadder2.mcs
+fourbitadder2.exo
+fourbitadder2.hex
+fourbitadder2.tek
+fourbitadder2.dst
+fourbitadder2.dst_compressed
+fourbitadder2.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+fourbitadder1_summary.html
+# xst flow : RunXST
+fourbitadder1_summary.html
+# xst flow : RunXST
+fourbitadder1_summary.html

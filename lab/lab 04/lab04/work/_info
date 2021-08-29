@@ -1,0 +1,114 @@
+m255
+13
+cModel Technology
+dF:\2006-2007\eem211\lab04\lab04
+vandgate
+I3jLkk7Z6O=9V:UaP7F8jo2
+V5FDLgI@m3aY?[Y6>a5jj12
+w1162389286
+Ffourbitadder2.v
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vfadder
+I0OBJzooh>=1LFPf93_K491
+VMJTd<E]lhmzfM;9LEY;g33
+w1162385604
+Fforbitadder1.v
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vfadderstr
+I@5V<a3TAM5BoomA]U1cP32
+VVK7ZKiDQL3z0UHjXHXmVH0
+w1162389286
+Ffourbitadder2.v
+L0 40
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vfourbitadder1
+IGGYgSO3]89QBGUz4UFoGD3
+VAATJRIGi2hNlD5;4eC7Lo0
+w1162385604
+Fforbitadder1.v
+L0 31
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vfourbitadder2
+IFM;TB82Yd:NPaV910N=YH3
+VOR6hVOF9O4AdhfYFiFG=K1
+w1162389286
+Ffourbitadder2.v
+L0 59
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+w1107956757
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vinvgate
+I8[N:@CY^6TibfXBVBPDf00
+VXfZHWlQ]:PBKg@R[@P78a2
+w1162389286
+Ffourbitadder2.v
+L0 33
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vlab4test
+I]VUZjfOc_4QfgORaID2zh2
+VWokW8eabO>3C1mVNVVcAe3
+w1162386872
+Flab4test.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vlab4test2
+IY^R>A6eC_odz[_jcXo_o[1
+V;0URT_FFc_SzEbf2oj]zH2
+w1162389296
+Flab4test2.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vorgate
+IDEz?HYbUnfoI_[jJ4c2QG3
+VB4heOWCa545BIKcJH6fZI3
+w1162389286
+Ffourbitadder2.v
+L0 27
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000

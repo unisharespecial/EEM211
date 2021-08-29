@@ -1,0 +1,7 @@
+sch2verilog -intstyle ise   -family spartan2 -w Sema2.sch Sema2.vf
+xst -intstyle ise -ifn __projnav/Sema2.xst -ofn Sema2.syr
+ngdbuild -intstyle ise -dd "f:\2006-2007\eem211\l5-2/_ngo" -uc pegasus.ucf -aul  -p xc2s200-pq208-6 Sema2.ngc Sema2.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o Sema2_map.ncd Sema2.ngd Sema2.pcf
+par -w -intstyle ise -ol std -t 1 Sema2_map.ncd Sema2.ncd Sema2.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml Sema2 Sema2.ncd -o Sema2.twr Sema2.pcf
+bitgen -intstyle ise -f Sema2.ut Sema2.ncd

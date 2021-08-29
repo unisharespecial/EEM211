@@ -1,0 +1,66 @@
+Release 7.1i ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd f:\2006-2007\eem211\lab04\lab04/_ngo
+-uc pegasus.ucf -aul -p xc2s200-pq208-6 fourbitadder1.ngc fourbitadder1.ngd 
+
+Reading NGO file 'F:/2006-2007/eem211/lab04/lab04/fourbitadder1.ngc' ...
+
+Applying constraints in "pegasus.ucf" to the design...
+INFO:NgdBuild:738 - A case sensitive search for the INST, PAD, or NET element
+   referred to by a constraint entry in 'pegasus.ucf' that accompanies this
+   design has failed, while a case insensitive search is in progress. The result
+   of the case insensitive search will be used, but messages will accompany each
+   and every use of a case insensitive result. Constraints are case sensitive
+   with respect to user-specified identifiers, which includes names of logic
+   elements in a design.
+INFO:NgdBuild:740 - Line 4 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'BTN0'. NET is 'btn0'.
+INFO:NgdBuild:754 - Line 5 in 'pegasus.ucf': Could not find net(s) 'BTN1' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 6 in 'pegasus.ucf': Could not find net(s) 'BTN2' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 7 in 'pegasus.ucf': Could not find net(s) 'BTN3' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:740 - Line 9 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'LD0'. NET is 'ld0'.
+INFO:NgdBuild:740 - Line 10 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'LD1'. NET is 'ld1'.
+INFO:NgdBuild:740 - Line 11 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'LD2'. NET is 'ld2'.
+INFO:NgdBuild:740 - Line 12 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'LD3'. NET is 'ld3'.
+INFO:NgdBuild:740 - Line 13 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'LD4'. NET is 'ld4'.
+INFO:NgdBuild:740 - Line 15 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'SW0'. NET is 'sw0'.
+INFO:NgdBuild:740 - Line 16 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'SW1'. NET is 'sw1'.
+INFO:NgdBuild:740 - Line 17 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'SW2'. NET is 'sw2'.
+INFO:NgdBuild:740 - Line 18 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'SW3'. NET is 'sw3'.
+INFO:NgdBuild:740 - Line 19 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'SW4'. NET is 'sw4'.
+INFO:NgdBuild:740 - Line 20 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'SW5'. NET is 'sw5'.
+INFO:NgdBuild:740 - Line 21 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'SW6'. NET is 'sw6'.
+INFO:NgdBuild:740 - Line 22 in 'pegasus.ucf': Found case insensitive match for
+   NET name 'SW7'. NET is 'sw7'.
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 61188 kilobytes
+
+Writing NGD file "fourbitadder1.ngd" ...
+
+Writing NGDBUILD log file "fourbitadder1.bld"...

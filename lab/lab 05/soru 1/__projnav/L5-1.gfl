@@ -1,0 +1,164 @@
+# Schematic : PDCL (jhdparse)
+__projnav/Sema1_jhdparse_tcl.rsp
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Schematic : View HDL Functional Model
+Sema1.vf
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# Update Bencher Waveform
+__projnav/updateTBW_tcl.rsp
+Sema1Test.vhw
+Sema1Test.ano
+Sema1Test.tfw
+Sema1Test.ant
+# ModelSim : Simulate Behavioral Verilog Model
+Sema1Test.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# xst flow : RunXST
+Sema1_summary.html
+# xst flow : RunXST
+Sema1_summary.html
+# Schematic : PDCL (jhdparse)
+__projnav/Sema1_jhdparse_tcl.rsp
+# Schematic : View HDL Functional Model
+Sema1.vf
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# Schematic : PDCL (jhdparse)
+__projnav/Sema1_jhdparse_tcl.rsp
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# xst flow : RunXST
+Sema1_summary.html
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# Schematic : PDCL (jhdparse)
+__projnav/Sema1_jhdparse_tcl.rsp
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# xst flow : RunXST
+Sema1_summary.html
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# ProjNav -> New Source -> TBW
+Sema1Test.vhw
+Sema1Test.ano
+Sema1Test.tfw
+Sema1Test.ant
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+Sema1Test_bencher.prj
+# Update Bencher Waveform
+__projnav/updateTBW_tcl.rsp
+Sema1Test.vhw
+Sema1Test.ano
+Sema1Test.tfw
+Sema1Test.ant
+# ModelSim : Simulate Behavioral Verilog Model
+Sema1Test.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+Sema1.lso
+# xst flow : RunXST
+Sema1_summary.html
+# xst flow : RunXST
+Sema1.syr
+Sema1.prj
+Sema1.sprj
+Sema1.ana
+Sema1.stx
+Sema1.cmd_log
+Sema1.ngc
+Sema1.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"f:\2006-2007\eem211\l5-1/_ngo"
+Sema1.ngd
+Sema1_ngdbuild.nav
+Sema1.bld
+pegasus.ucf.untf
+Sema1.cmd_log
+# Implementation : Map
+Sema1_summary.html
+# Implementation : Map
+Sema1_map.ncd
+Sema1.ngm
+Sema1.pcf
+Sema1.nc1
+Sema1.mrp
+Sema1_map.mrp
+Sema1.mdf
+Sema1.cmd_log
+MAP_NO_GUIDE_FILE_CPF "Sema1"
+Sema1_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+Sema1.twr
+Sema1.twx
+Sema1.tsi
+Sema1.cmd_log
+# Implementation : Place & Route
+Sema1_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+Sema1.ncd
+Sema1.par
+Sema1.pad
+Sema1_pad.txt
+Sema1_pad.csv
+Sema1.pad_txt
+Sema1.dly
+reportgen.log
+Sema1.xpi
+Sema1.grf
+Sema1.itr
+Sema1_last_par.ncd
+Sema1.placed_ncd_tracker
+Sema1.routed_ncd_tracker
+Sema1.cmd_log
+PAR_NO_GUIDE_FILE_CPF "Sema1"
+# Generate Programming File
+__projnav/Sema1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+Sema1.ut
+# Generate Programming File
+Sema1.bgn
+Sema1.rbt
+Sema1.ll
+Sema1.msk
+Sema1.drc
+Sema1.nky
+Sema1.bit
+Sema1.bin
+Sema1.isc
+Sema1.cmd_log
+# Configure Device (iMPACT)
+Sema1.prm
+Sema1.isc
+Sema1.svf
+xilinx.sys
+Sema1.mcs
+Sema1.exo
+Sema1.hex
+Sema1.tek
+Sema1.dst
+Sema1.dst_compressed
+Sema1.mpm
+_impact.cmd
+_impact.log
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf

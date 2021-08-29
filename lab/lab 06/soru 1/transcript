@@ -1,0 +1,33 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do test1.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module halfadder
+# -- Compiling module tamtoplayici
+# -- Compiling module fourbitadder
+# 
+# Top level modules:
+# 	fourbitadder
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module test1
+# 
+# Top level modules:
+# 	test1
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps test1 glbl 
+# Loading work.test1
+# Loading work.fourbitadder
+# Loading work.tamtoplayici
+# Loading work.halfadder
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+# No errors or warnings.
+# Break at test1.tfw line 45
+# Simulation Breakpoint: Break at test1.tfw line 45
+# MACRO ./test1.fdo PAUSED at line 14

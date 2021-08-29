@@ -1,0 +1,19 @@
+sch2verilog -intstyle ise   -family spartan2 -w sema1.sch sema1.vf
+xst -intstyle ise -ifn __projnav/sema1.xst -ofn sema1.syr
+ngdbuild -intstyle ise -dd "c:\deney7/_ngo" -i -aul  -p xc2s200-pq208-6 sema1.ngc sema1.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o sema1_map.ncd sema1.ngd sema1.pcf
+par -w -intstyle ise -ol std -t 1 sema1_map.ncd sema1.ncd sema1.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml sema1 sema1.ncd -o sema1.twr sema1.pcf
+bitgen -intstyle ise -f sema1.ut sema1.ncd
+ngdbuild -intstyle ise -dd "c:\deney7/_ngo" -uc pins.ucf -aul  -p xc2s200-pq208-6 sema1.ngc sema1.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o sema1_map.ncd sema1.ngd sema1.pcf
+par -w -intstyle ise -ol std -t 1 sema1_map.ncd sema1.ncd sema1.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml sema1 sema1.ncd -o sema1.twr sema1.pcf
+bitgen -intstyle ise -f sema1.ut sema1.ncd
+sch2verilog -intstyle ise   -family spartan2 -w sema1.sch sema1.vf
+xst -intstyle ise -ifn __projnav/sema1.xst -ofn sema1.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\ogrenci\desktop\deney7/_ngo" -uc pins.ucf -aul  -p xc2s200-pq208-6 sema1.ngc sema1.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o sema1_map.ncd sema1.ngd sema1.pcf
+par -w -intstyle ise -ol std -t 1 sema1_map.ncd sema1.ncd sema1.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml sema1 sema1.ncd -o sema1.twr sema1.pcf
+bitgen -intstyle ise -f sema1.ut sema1.ncd

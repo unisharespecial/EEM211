@@ -1,0 +1,25 @@
+Release 7.1i ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd f:\2006-2007\eem211\lab6\lab6-01/_ngo
+-uc pins.ucf -aul -p xc2s200-pq208-6 fourbitadder.ngc fourbitadder.ngd 
+
+Reading NGO file 'F:/2006-2007/eem211/Lab6/Lab6-01/fourbitadder.ngc' ...
+
+Applying constraints in "pins.ucf" to the design...
+INFO:NgdBuild:754 - Line 13 in 'pins.ucf': Could not find net(s) 'cout' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 60952 kilobytes
+
+Writing NGD file "fourbitadder.ngd" ...
+
+Writing NGDBUILD log file "fourbitadder.bld"...

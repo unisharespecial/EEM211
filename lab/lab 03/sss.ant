@@ -1,0 +1,109 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : ISE WebPACK
+//  /   /         Filename : sss.ant
+// /___/   /\     Timestamp : Wed Oct 18 14:58:03 2006
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: sss
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module sss;
+    reg A = 1'b0;
+    reg B = 1'b0;
+    reg C = 1'b0;
+    wire F;
+
+
+    aaa UUT (
+        .A(A),
+        .B(B),
+        .C(C),
+        .F(F));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process
+        #0;
+        ANNOTATE_F;
+        forever begin
+            #50;
+            ANNOTATE_F;
+            #50;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("C:\\Documents and Settings\\ogrenci\\Desktop\\sss.ano");
+        #1000 // Final time:  1000 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  100ns
+        #100;
+        A = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  200ns
+        #100;
+        A = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  300ns
+        #100;
+        A = 1'b1;
+        B = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  400ns
+        #100;
+        A = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  500ns
+        #100;
+        A = 1'b1;
+        B = 1'b0;
+        C = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  600ns
+        #100;
+        A = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  700ns
+        #100;
+        A = 1'b1;
+        B = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  800ns
+        #100;
+        A = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  900ns
+        #100;
+        A = 1'b1;
+        B = 1'b0;
+        C = 1'b0;
+    end
+
+    task ANNOTATE_F;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,F,%b]", $time, F);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

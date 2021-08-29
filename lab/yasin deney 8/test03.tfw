@@ -1,0 +1,78 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : ISE WebPACK
+//  /   /         Filename : test03.tfw
+// /___/   /\     Timestamp : Wed Dec 13 15:17:18 2006
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: test03
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module test03;
+    reg mclk = 1'b0;
+    wire [2:0] Q;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 0;
+
+    initial    // Clock process for mclk
+    begin
+        #OFFSET;
+        forever
+        begin
+            mclk = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) mclk = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    sema03 UUT (
+        .mclk(mclk),
+        .Q(Q));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin  // Open the results file...
+        TX_FILE = $fopen("results.txt");
+        #5100 // Final time:  5100 ns
+        if (TX_ERROR == 0) begin
+            $display("No errors or warnings.");
+            $fdisplay(TX_FILE, "No errors or warnings.");
+        end else begin
+            $display("%d errors found in simulation.", TX_ERROR);
+            $fdisplay(TX_FILE, "%d errors found in simulation.", TX_ERROR);
+        end
+        $fclose(TX_FILE);
+        $stop;
+    end
+
+    initial begin
+    end
+
+    task CHECK_Q;
+        input [2:0] NEXT_Q;
+
+        #0 begin
+            if (NEXT_Q !== Q) begin
+                $display("Error at time=%dns Q=%b, expected=%b", $time, Q, NEXT_Q);
+                $fdisplay(TX_FILE, "Error at time=%dns Q=%b, expected=%b", $time, Q, NEXT_Q);
+                $fflush(TX_FILE);
+                TX_ERROR = TX_ERROR + 1;
+            end
+        end
+    endtask
+
+endmodule
+

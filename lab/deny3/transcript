@@ -1,0 +1,35 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do deny3test1.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module deny3sema
+# 
+# Top level modules:
+# 	deny3sema
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module deny3test1
+# 
+# Top level modules:
+# 	deny3test1
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps deny3test1 glbl 
+# Loading work.deny3test1
+# Loading work.deny3sema
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND2
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.OR2
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.INV
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+# No errors or warnings.
+# Break at deny3test1.tfw line 48
+# Simulation Breakpoint: Break at deny3test1.tfw line 48
+# MACRO ./deny3test1.fdo PAUSED at line 14
+add list *
+write list -window .list {C:/Documents and Settings/ogrenci/Desktop/deny3/list.lst}
+destroy .list

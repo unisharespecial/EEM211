@@ -1,0 +1,18 @@
+# XST flow : Creating project file
+sema1.prj
+# xst flow : RunXST
+sema1.prj
+__projnav/sema1.xst
+./xst
+# XST flow : Creating project file
+sema2.prj
+# xst flow : RunXST
+sema2.prj
+__projnav/sema2.xst
+./xst
+# XST flow : Creating project file
+sema3.prj
+# xst flow : RunXST
+sema3.prj
+__projnav/sema3.xst
+./xst

@@ -1,0 +1,483 @@
+# Schematic : PDCL (jhdparse)
+__projnav/samatik_jhdparse_tcl.rsp
+# Schematic : PDCL (jhdparse)
+__projnav/samatik_jhdparse_tcl.rsp
+# Schematic : View HDL Functional Model
+samatik.vf
+# Bencher : Creating project file
+test_bencher.prj
+# ProjNav -> New Source -> TBW
+test.vhw
+test.ano
+test.tfw
+test.ant
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test_bencher.prj
+# Update Bencher Waveform
+__projnav/updateTBW_tcl.rsp
+test.vhw
+test.ano
+test.tfw
+test.ant
+# ModelSim : Simulate Behavioral Verilog Model
+test.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+test.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# xst flow : RunXST
+samatik_summary.html
+# xst flow : RunXST
+samatik_summary.html
+# Bencher : Creating project file
+test_bencher.prj
+# ModelSim : Simulate Behavioral Verilog Model
+test.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# xst flow : RunXST
+samatik_summary.html
+# Schematic : PDCL (jhdparse)
+__projnav/samatik_jhdparse_tcl.rsp
+# Schematic : View HDL Functional Model
+samatik.vf
+# Bencher : Creating project file
+test_bencher.prj
+# ProjNav -> New Source -> TBW
+test.vhw
+test.ano
+test.tfw
+test.ant
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test_bencher.prj
+# Update Bencher Waveform
+__projnav/updateTBW_tcl.rsp
+test.vhw
+test.ano
+test.tfw
+test.ant
+# ModelSim : Simulate Behavioral Verilog Model
+test.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# xst flow : RunXST
+samatik_summary.html
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# xst flow : RunXST
+samatik_summary.html
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# XST (Creating Lso File) : 
+samatik.lso
+# xst flow : RunXST
+samatik_summary.html
+# xst flow : RunXST
+samatik.syr
+samatik.prj
+samatik.sprj
+samatik.ana
+samatik.stx
+samatik.cmd_log
+samatik.ngc
+samatik.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\ogrenci\desktop\deney7\2/_ngo"
+samatik.ngd
+samatik_ngdbuild.nav
+samatik.bld
+pins.ucf.untf
+samatik.cmd_log
+# Implementation : Map
+samatik_summary.html
+# Implementation : Map
+samatik_map.ncd
+samatik.ngm
+samatik.pcf
+samatik.nc1
+samatik.mrp
+samatik_map.mrp
+samatik.mdf
+samatik.cmd_log
+MAP_NO_GUIDE_FILE_CPF "samatik"
+samatik_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+samatik.twr
+samatik.twx
+samatik.tsi
+samatik.cmd_log
+# Implementation : Place & Route
+samatik_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+samatik.ncd
+samatik.par
+samatik.pad
+samatik_pad.txt
+samatik_pad.csv
+samatik.pad_txt
+samatik.dly
+reportgen.log
+samatik.xpi
+samatik.grf
+samatik.itr
+samatik_last_par.ncd
+samatik.placed_ncd_tracker
+samatik.routed_ncd_tracker
+samatik.cmd_log
+PAR_NO_GUIDE_FILE_CPF "samatik"
+# Generate Programming File
+__projnav/samatik_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+samatik.ut
+# Generate Programming File
+samatik.bgn
+samatik.rbt
+samatik.ll
+samatik.msk
+samatik.drc
+samatik.nky
+samatik.bit
+samatik.bin
+samatik.isc
+samatik.cmd_log
+# Configure Device (iMPACT)
+samatik.prm
+samatik.isc
+samatik.svf
+xilinx.sys
+samatik.mcs
+samatik.exo
+samatik.hex
+samatik.tek
+samatik.dst
+samatik.dst_compressed
+samatik.mpm
+_impact.cmd
+_impact.log
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# XST (Creating Lso File) : 
+samatik.lso
+# xst flow : RunXST
+samatik_summary.html
+# xst flow : RunXST
+samatik.syr
+samatik.prj
+samatik.sprj
+samatik.ana
+samatik.stx
+samatik.cmd_log
+samatik.ngc
+samatik.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\ogrenci\desktop\deney7\2/_ngo"
+samatik.ngd
+samatik_ngdbuild.nav
+samatik.bld
+pins.ucf.untf
+samatik.cmd_log
+# Implementation : Map
+samatik_summary.html
+# Implementation : Map
+samatik_map.ncd
+samatik.ngm
+samatik.pcf
+samatik.nc1
+samatik.mrp
+samatik_map.mrp
+samatik.mdf
+samatik.cmd_log
+MAP_NO_GUIDE_FILE_CPF "samatik"
+samatik_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+samatik.twr
+samatik.twx
+samatik.tsi
+samatik.cmd_log
+# Implementation : Place & Route
+samatik_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+samatik.ncd
+samatik.par
+samatik.pad
+samatik_pad.txt
+samatik_pad.csv
+samatik.pad_txt
+samatik.dly
+reportgen.log
+samatik.xpi
+samatik.grf
+samatik.itr
+samatik_last_par.ncd
+samatik.placed_ncd_tracker
+samatik.routed_ncd_tracker
+samatik.cmd_log
+PAR_NO_GUIDE_FILE_CPF "samatik"
+# Generate Programming File
+__projnav/samatik_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+samatik.ut
+# Generate Programming File
+samatik.bgn
+samatik.rbt
+samatik.ll
+samatik.msk
+samatik.drc
+samatik.nky
+samatik.bit
+samatik.bin
+samatik.isc
+samatik.cmd_log
+# Configure Device (iMPACT)
+samatik.prm
+samatik.isc
+samatik.svf
+xilinx.sys
+samatik.mcs
+samatik.exo
+samatik.hex
+samatik.tek
+samatik.dst
+samatik.dst_compressed
+samatik.mpm
+_impact.cmd
+_impact.log
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# XST (Creating Lso File) : 
+samatik.lso
+# xst flow : RunXST
+samatik_summary.html
+# xst flow : RunXST
+samatik.syr
+samatik.prj
+samatik.sprj
+samatik.ana
+samatik.stx
+samatik.cmd_log
+samatik.ngc
+samatik.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\ogrenci\desktop\deney7\2/_ngo"
+samatik.ngd
+samatik_ngdbuild.nav
+samatik.bld
+pins.ucf.untf
+samatik.cmd_log
+# Implementation : Map
+samatik_summary.html
+# Implementation : Map
+samatik_map.ncd
+samatik.ngm
+samatik.pcf
+samatik.nc1
+samatik.mrp
+samatik_map.mrp
+samatik.mdf
+samatik.cmd_log
+MAP_NO_GUIDE_FILE_CPF "samatik"
+samatik_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+samatik.twr
+samatik.twx
+samatik.tsi
+samatik.cmd_log
+# Implementation : Place & Route
+samatik_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+samatik.ncd
+samatik.par
+samatik.pad
+samatik_pad.txt
+samatik_pad.csv
+samatik.pad_txt
+samatik.dly
+reportgen.log
+samatik.xpi
+samatik.grf
+samatik.itr
+samatik_last_par.ncd
+samatik.placed_ncd_tracker
+samatik.routed_ncd_tracker
+samatik.cmd_log
+PAR_NO_GUIDE_FILE_CPF "samatik"
+# Generate Programming File
+__projnav/samatik_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+samatik.ut
+# Generate Programming File
+samatik.bgn
+samatik.rbt
+samatik.ll
+samatik.msk
+samatik.drc
+samatik.nky
+samatik.bit
+samatik.bin
+samatik.isc
+samatik.cmd_log
+# Configure Device (iMPACT)
+samatik.prm
+samatik.isc
+samatik.svf
+xilinx.sys
+samatik.mcs
+samatik.exo
+samatik.hex
+samatik.tek
+samatik.dst
+samatik.dst_compressed
+samatik.mpm
+_impact.cmd
+_impact.log
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# xst flow : RunXST
+samatik_summary.html
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# XST (Creating Lso File) : 
+samatik.lso
+# xst flow : RunXST
+samatik_summary.html
+# xst flow : RunXST
+samatik.syr
+samatik.prj
+samatik.sprj
+samatik.ana
+samatik.stx
+samatik.cmd_log
+samatik.ngc
+samatik.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\ogrenci\desktop\deney7\2/_ngo"
+samatik.ngd
+samatik_ngdbuild.nav
+samatik.bld
+pins.ucf.untf
+samatik.cmd_log
+# Implementation : Map
+samatik_summary.html
+# Implementation : Map
+samatik_map.ncd
+samatik.ngm
+samatik.pcf
+samatik.nc1
+samatik.mrp
+samatik_map.mrp
+samatik.mdf
+samatik.cmd_log
+MAP_NO_GUIDE_FILE_CPF "samatik"
+samatik_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+samatik.twr
+samatik.twx
+samatik.tsi
+samatik.cmd_log
+# Implementation : Place & Route
+samatik_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+samatik.ncd
+samatik.par
+samatik.pad
+samatik_pad.txt
+samatik_pad.csv
+samatik.pad_txt
+samatik.dly
+reportgen.log
+samatik.xpi
+samatik.grf
+samatik.itr
+samatik_last_par.ncd
+samatik.placed_ncd_tracker
+samatik.routed_ncd_tracker
+samatik.cmd_log
+PAR_NO_GUIDE_FILE_CPF "samatik"
+# Generate Programming File
+__projnav/samatik_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+samatik.ut
+# Generate Programming File
+samatik.bgn
+samatik.rbt
+samatik.ll
+samatik.msk
+samatik.drc
+samatik.nky
+samatik.bit
+samatik.bin
+samatik.isc
+samatik.cmd_log
+# Configure Device (iMPACT)
+samatik.prm
+samatik.isc
+samatik.svf
+xilinx.sys
+samatik.mcs
+samatik.exo
+samatik.hex
+samatik.tek
+samatik.dst
+samatik.dst_compressed
+samatik.mpm
+_impact.cmd
+_impact.log

@@ -1,0 +1,6 @@
+# XST flow : Creating project file
+fourbitadder.prj
+# xst flow : RunXST
+fourbitadder.prj
+__projnav/fourbitadder.xst
+./xst

@@ -1,0 +1,13 @@
+//! **************************************************************************
+// Written by: Map H.38 on Wed Nov 08 15:15:12 2006
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SW0" LOCATE = SITE "P89" LEVEL 1;
+COMP "SW1" LOCATE = SITE "P88" LEVEL 1;
+COMP "SW2" LOCATE = SITE "P87" LEVEL 1;
+COMP "SW3" LOCATE = SITE "P86" LEVEL 1;
+COMP "LD0" LOCATE = SITE "P46" LEVEL 1;
+COMP "LD1" LOCATE = SITE "P45" LEVEL 1;
+COMP "LD2" LOCATE = SITE "P44" LEVEL 1;
+SCHEMATIC END;

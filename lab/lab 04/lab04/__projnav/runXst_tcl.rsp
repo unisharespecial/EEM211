@@ -1,0 +1,1 @@
+set allSynthModules {invgate.MOD andgate.MOD orgate.MOD fadderstr.MOD fourbitadder2.MOD}

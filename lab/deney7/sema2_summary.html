@@ -1,0 +1,451 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 10">
+<meta name=Originator content="Microsoft Word 10">
+<link rel=File-List href="sema2_summary_dosyalar/filelist.xml">
+<title>Xilinx Implementation Summary</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>ogrenci</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>ogrenci</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>0</o:TotalTime>
+  <o:Created>2006-12-05T07:12:00Z</o:Created>
+  <o:LastSaved>2006-12-05T07:12:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>218</o:Words>
+  <o:Characters>1249</o:Characters>
+  <o:Company>Bu</o:Company>
+  <o:Lines>10</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1465</o:CharactersWithSpaces>
+  <o:Version>10.2625</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HyphenationZone>21</w:HyphenationZone>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]-->
+<style>
+<!--
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	color:black;}
+h3
+	{color:black;}
+a:link, span.MsoHyperlink
+	{color:#0000EE;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:#551A8B;
+	text-decoration:underline;
+	text-underline:single;}
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Normal Tablo";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2050"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body bgcolor=white lang=TR link="#0000EE" vlink="#551A8B" style='tab-interval:
+35.4pt' alink="#FF0000">
+
+<div class=Section1>
+
+<h3><X_Overview></X_Overview>Design Overview for sema2</h3>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="95%"
+ style='width:95.0%;mso-cellspacing:1.5pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Property</b></p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Value</b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width="25%" style='width:25.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Project Name:</p>
+  </td>
+  <td width="80%" style='width:80.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>c:\deney7</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td width="25%" style='width:25.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Target Device:</p>
+  </td>
+  <td width="80%" style='width:80.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>xc2s200</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td width="25%" style='width:25.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Report Generated:</p>
+  </td>
+  <td width="80%" style='width:80.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Tuesday 05/12/06 at 15:18</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Printable Summary (View as HTML)</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="sema2_summary.html">sema2_summary.html</a></p>
+  </td>
+ </tr>
+</table>
+
+<h3><X_Resources></X_Resources>Device Utilization Summary</h3>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="95%"
+ style='width:95.0%;mso-cellspacing:1.5pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Logic Utilization</b></p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Used</b></p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Available</b></p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Utilization</b></p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Note(s)</b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Number of 4 input LUTs:</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>1</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>4,704</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>1%</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Logic Distribution:</b></p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&nbsp;</p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&nbsp;</p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&nbsp;</p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Number of occupied Slices:</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>1</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>2,352</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>1%</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Number of Slices containing only related logic:</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>1</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>1</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>100%</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Number of Slices containing unrelated logic:</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>0</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>1</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>0%</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Total Number of 4 input LUTs:</b></p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>1</p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>4,704</p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>1%</p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&nbsp;</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Number of bonded IOBs:</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>5</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>140</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>3%</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=right style='text-align:right'>&nbsp;</p>
+  </td>
+ </tr>
+</table>
+
+<h3><X_Performance></X_Performance>Performance Summary</h3>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="95%"
+ style='width:95.0%;mso-cellspacing:1.5pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Property</b></p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Value</b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td width="25%" style='width:25.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Number of Unrouted Signals:</p>
+  </td>
+  <td width="80%" style='width:80.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>All signals are completely routed.</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
+  <td width="25%" style='width:25.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Number of Failing Constraints:</p>
+  </td>
+  <td width="80%" style='width:80.0%;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>0</p>
+  </td>
+ </tr>
+</table>
+
+<h3><X_Constraints></X_Constraints>Failing Constraints</h3>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="95%"
+ style='width:95.0%;mso-cellspacing:1.5pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Constraint(s)</b></p>
+  </td>
+  <td width="15%" style='width:15.0%;background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Requested</b></p>
+  </td>
+  <td width="15%" style='width:15.0%;background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Actual</b></p>
+  </td>
+  <td width="15%" style='width:15.0%;background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b>Logic Levels</b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>No Constraints Found</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>&nbsp;</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>&nbsp;</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>&nbsp;</p>
+  </td>
+ </tr>
+</table>
+
+<h3><X_Reports></X_Reports>Detailed Reports</h3>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width="95%"
+ style='width:95.0%;mso-cellspacing:1.5pt'>
+ <tr style='mso-yfti-irow:0'>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Report Name</b></p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Status</b></p>
+  </td>
+  <td style='background:#FFFF99;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><b>Last Date Modified</b></p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:1'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="sema2.syr">Synthesis Report</a></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Current</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Tuesday 07/25/06 at 13:18</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:2'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="sema2.bld">Translation Report</a></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Current</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Tuesday 07/25/06 at 13:18</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:3'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="sema2.mrp">Map Report</a></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Current</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Tuesday 07/25/06 at 13:18</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:4'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="sema2.pad_txt">Pad Report</a></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Current</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Tuesday 07/25/06 at 13:18</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:5'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="sema2.par">Place and Route Report</a></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Current</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Tuesday 07/25/06 at 13:18</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:6'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="sema2.twr">Post Place and Route Static Timing
+  Report</a></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Current</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Tuesday 07/25/06 at 13:18</p>
+  </td>
+ </tr>
+ <tr style='mso-yfti-irow:7;mso-yfti-lastrow:yes'>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><a href="sema2.bgn">Bitgen Report</a></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Current</p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal>Tuesday 07/25/06 at 13:18</p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal><span style='color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>

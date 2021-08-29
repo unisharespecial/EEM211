@@ -1,0 +1,39 @@
+m255
+13
+cModel Technology
+dF:\2006-2007\eem211\L5-1
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+w1107956757
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vSema1
+IB:n@[IH7Bf`ZfW:hQTBI50
+VmRAOJzPWDZkRIbJK06E4g1
+w1162989222
+FSema1.vf
+L0 24
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@sema1
+vSema1Test
+I<B35olo8NGYbc[c0IzaM20
+V7RZo44i^Qd?;2`AJ0LbbU3
+w1162989572
+FSema1Test.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@sema1@test

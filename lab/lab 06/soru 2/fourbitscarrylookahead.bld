@@ -1,0 +1,24 @@
+Release 7.1i ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd f:\2006-2007\eem211\lab6\lab6-02/_ngo
+-uc pins.ucf -aul -p xc2s200-pq208-6 fourbitscarrylookahead.ngc
+fourbitscarrylookahead.ngd 
+
+Reading NGO file 'F:/2006-2007/eem211/Lab6/Lab6-02/fourbitscarrylookahead.ngc'
+...
+
+Applying constraints in "pins.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 60952 kilobytes
+
+Writing NGD file "fourbitscarrylookahead.ngd" ...
+
+Writing NGDBUILD log file "fourbitscarrylookahead.bld"...

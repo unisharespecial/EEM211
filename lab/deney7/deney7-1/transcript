@@ -1,0 +1,35 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do test.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module sematik1
+# 
+# Top level modules:
+# 	sematik1
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps test glbl 
+# Loading work.test
+# Loading work.sematik1
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.NOR3
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND2
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.INV
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+# No errors or warnings.
+# Break at test.tfw line 45
+# Simulation Breakpoint: Break at test.tfw line 45
+# MACRO ./test.fdo PAUSED at line 14
+add list *
+write list -window .list {C:/Documents and Settings/user/Desktop/say lab/deney7/deney7-1/list.lst}
+destroy .list

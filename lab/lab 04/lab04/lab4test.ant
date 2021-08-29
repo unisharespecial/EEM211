@@ -1,0 +1,202 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : ISE WebPACK
+//  /   /         Filename : lab4test.ant
+// /___/   /\     Timestamp : Wed Nov 01 15:14:31 2006
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: lab4test
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module lab4test;
+    wire ld0;
+    wire ld1;
+    wire ld2;
+    wire ld3;
+    wire ld4;
+    reg btn0 = 1'b0;
+    reg sw0 = 1'b0;
+    reg sw4 = 1'b0;
+    reg sw1 = 1'b0;
+    reg sw5 = 1'b0;
+    reg sw2 = 1'b1;
+    reg sw6 = 1'b1;
+    reg sw3 = 1'b0;
+    reg sw7 = 1'b1;
+
+
+    fourbitadder1 UUT (
+        .ld0(ld0),
+        .ld1(ld1),
+        .ld2(ld2),
+        .ld3(ld3),
+        .ld4(ld4),
+        .btn0(btn0),
+        .sw0(sw0),
+        .sw4(sw4),
+        .sw1(sw1),
+        .sw5(sw5),
+        .sw2(sw2),
+        .sw6(sw6),
+        .sw3(sw3),
+        .sw7(sw7));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process
+        #0;
+        ANNOTATE_ld0;
+        ANNOTATE_ld1;
+        ANNOTATE_ld2;
+        ANNOTATE_ld3;
+        ANNOTATE_ld4;
+        forever begin
+            #50;
+            ANNOTATE_ld0;
+            ANNOTATE_ld1;
+            ANNOTATE_ld2;
+            ANNOTATE_ld3;
+            ANNOTATE_ld4;
+            #50;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("F:\\2006-2007\\eem211\\lab04\\lab04\\lab4test.ano");
+        #1000 // Final time:  1000 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  100ns
+        #100;
+        btn0 = 1'b1;
+        sw1 = 1'b1;
+        sw5 = 1'b1;
+        sw2 = 1'b0;
+        sw6 = 1'b0;
+        sw7 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  200ns
+        #100;
+        btn0 = 1'b0;
+        sw0 = 1'b1;
+        sw2 = 1'b1;
+        sw7 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  300ns
+        #100;
+        btn0 = 1'b1;
+        sw0 = 1'b0;
+        sw4 = 1'b1;
+        sw1 = 1'b0;
+        sw5 = 1'b0;
+        sw2 = 1'b0;
+        sw6 = 1'b1;
+        sw3 = 1'b1;
+        sw7 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  400ns
+        #100;
+        btn0 = 1'b0;
+        sw5 = 1'b1;
+        sw6 = 1'b0;
+        sw3 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  500ns
+        #100;
+        btn0 = 1'b1;
+        sw0 = 1'b1;
+        sw1 = 1'b1;
+        sw5 = 1'b0;
+        sw2 = 1'b1;
+        sw6 = 1'b1;
+        sw3 = 1'b1;
+        sw7 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  600ns
+        #100;
+        btn0 = 1'b0;
+        sw2 = 1'b0;
+        sw7 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  700ns
+        #100;
+        btn0 = 1'b1;
+        sw0 = 1'b0;
+        sw1 = 1'b0;
+        sw5 = 1'b1;
+        sw2 = 1'b1;
+        sw6 = 1'b0;
+        sw3 = 1'b0;
+        sw7 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  800ns
+        #100;
+        btn0 = 1'b0;
+        sw0 = 1'b1;
+        sw1 = 1'b1;
+        sw3 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  900ns
+        #100;
+        btn0 = 1'b1;
+        // -------------------------------------
+    end
+
+    task ANNOTATE_ld0;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,ld0,%b]", $time, ld0);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_ld1;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,ld1,%b]", $time, ld1);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_ld2;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,ld2,%b]", $time, ld2);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_ld3;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,ld3,%b]", $time, ld3);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_ld4;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,ld4,%b]", $time, ld4);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

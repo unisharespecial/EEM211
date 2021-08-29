@@ -1,0 +1,44 @@
+--------------------------------------------------------------------------------
+Release 7.1i Trace H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -ise f:\2006-2007\eem211\l5-1\L5-1.ise -intstyle ise
+-e 3 -l 3 -s 6 -xml Sema1 Sema1.ncd -o Sema1.twr Sema1.pcf
+
+
+Design file:              sema1.ncd
+Physical constraint file: sema1.pcf
+Device,speed:             xc2s200,-6 (PRODUCTION 1.27 2005-01-22)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+SW0            |LD0            |   10.259|
+SW1            |LD0            |   10.169|
+SW2            |LD0            |    9.715|
+SW3            |LD0            |    9.893|
+---------------+---------------+---------+
+
+Analysis completed Wed Nov 08 14:48:40 2006
+--------------------------------------------------------------------------------
+
+
+
+Peak Memory Usage: 68 MB

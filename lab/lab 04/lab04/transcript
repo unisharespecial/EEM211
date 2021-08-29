@@ -1,0 +1,37 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do lab4test2.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module andgate
+# -- Compiling module orgate
+# -- Compiling module invgate
+# -- Compiling module fadderstr
+# -- Compiling module fourbitadder2
+# 
+# Top level modules:
+# 	fourbitadder2
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module lab4test2
+# 
+# Top level modules:
+# 	lab4test2
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps lab4test2 glbl 
+# Loading work.lab4test2
+# Loading work.fourbitadder2
+# Loading work.fadderstr
+# Loading work.invgate
+# Loading work.andgate
+# Loading work.orgate
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+# No errors or warnings.
+# Break at lab4test2.tfw line 63
+# Simulation Breakpoint: Break at lab4test2.tfw line 63
+# MACRO ./lab4test2.fdo PAUSED at line 14

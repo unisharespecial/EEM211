@@ -1,0 +1,24 @@
+Release 7.1i ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd "c:\documents and
+settings\ogrenci\desktop\deney7\2/_ngo" -uc pins.ucf -aul -p xc2s200-pq208-6
+samatik.ngc samatik.ngd 
+
+Reading NGO file 'C:/Documents and
+Settings/ogrenci/Desktop/deney7/2/samatik.ngc' ...
+
+Applying constraints in "pins.ucf" to the design...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 60952 kilobytes
+
+Writing NGD file "samatik.ngd" ...
+
+Writing NGDBUILD log file "samatik.bld"...

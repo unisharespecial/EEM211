@@ -1,0 +1,39 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do test.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module FJKC_MXILINX_sematik02
+# -- Compiling module sematik02
+# 
+# Top level modules:
+# 	sematik02
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module test
+# 
+# Top level modules:
+# 	test
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps test glbl 
+# Loading work.test
+# Loading work.sematik02
+# Loading work.FJKC_MXILINX_sematik02
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.FDC
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND3B2
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND3B1
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.OR3
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND2B1
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.PULLUP
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.PULLDOWN
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+# No errors or warnings.
+# Break at test.tfw line 53
+# Simulation Breakpoint: Break at test.tfw line 53
+# MACRO ./test.fdo PAUSED at line 14
+write format wave -window .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs {C:/Documents and Settings/user/Desktop/say lab/Deney8/deney8-02/wave.do}

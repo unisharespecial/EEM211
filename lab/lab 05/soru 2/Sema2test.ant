@@ -1,0 +1,171 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : ISE WebPACK
+//  /   /         Filename : Sema2test.ant
+// /___/   /\     Timestamp : Wed Nov 08 14:26:55 2006
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: Sema2test
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module Sema2test;
+    reg SW0 = 1'b0;
+    reg SW1 = 1'b0;
+    reg SW2 = 1'b0;
+    reg SW3 = 1'b0;
+    wire LD0;
+    wire LD1;
+    wire LD2;
+
+
+    Sema2 UUT (
+        .SW0(SW0),
+        .SW1(SW1),
+        .SW2(SW2),
+        .SW3(SW3),
+        .LD0(LD0),
+        .LD1(LD1),
+        .LD2(LD2));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process
+        #0;
+        ANNOTATE_LD0;
+        ANNOTATE_LD1;
+        ANNOTATE_LD2;
+        forever begin
+            #50;
+            ANNOTATE_LD0;
+            ANNOTATE_LD1;
+            ANNOTATE_LD2;
+            #50;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("F:\\2006-2007\\eem211\\L5-2\\Sema2test.ano");
+        #2000 // Final time:  2000 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  100ns
+        #100;
+        SW2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  200ns
+        #100;
+        SW2 = 1'b0;
+        SW3 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  300ns
+        #100;
+        SW2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  400ns
+        #100;
+        SW0 = 1'b1;
+        SW2 = 1'b0;
+        SW3 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  500ns
+        #100;
+        SW2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  600ns
+        #100;
+        SW2 = 1'b0;
+        SW3 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  700ns
+        #100;
+        SW2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  800ns
+        #100;
+        SW0 = 1'b0;
+        SW1 = 1'b1;
+        SW2 = 1'b0;
+        SW3 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  900ns
+        #100;
+        SW2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1000ns
+        #100;
+        SW2 = 1'b0;
+        SW3 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1100ns
+        #100;
+        SW2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1200ns
+        #100;
+        SW0 = 1'b1;
+        SW2 = 1'b0;
+        SW3 = 1'b0;
+        // -------------------------------------
+        // -------------  Current Time:  1300ns
+        #100;
+        SW2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1400ns
+        #100;
+        SW2 = 1'b0;
+        SW3 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1500ns
+        #100;
+        SW2 = 1'b1;
+        // -------------------------------------
+        // -------------  Current Time:  1600ns
+        #100;
+        SW0 = 1'b0;
+        SW1 = 1'b0;
+        SW2 = 1'b0;
+        SW3 = 1'b0;
+    end
+
+    task ANNOTATE_LD0;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,LD0,%b]", $time, LD0);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_LD1;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,LD1,%b]", $time, LD1);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_LD2;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,LD2,%b]", $time, LD2);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

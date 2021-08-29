@@ -1,0 +1,6 @@
+# XST flow : Creating project file
+Sema2.prj
+# xst flow : RunXST
+Sema2.prj
+__projnav/Sema2.xst
+./xst

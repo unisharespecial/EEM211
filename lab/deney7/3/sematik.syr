@@ -1,0 +1,283 @@
+Release 7.1i - xst H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.34 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.34 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: sematik.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sematik.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sematik"
+Output Format                      : NGC
+Target Device                      : xc2s200-6-pq208
+
+---- Source Options
+Top Module Name                    : sematik
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : lut
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100
+Add Generic Clock Buffer(BUFG)     : 4
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : sematik.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+safe_implementation                : No
+Optimize Instantiated Primitives   : NO
+tristate2logic                     : Yes
+use_clock_enable                   : Yes
+use_sync_set                       : Yes
+use_sync_reset                     : Yes
+enable_auto_floorplanning          : No
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "sematik.vf"
+Module <M2_1E_MXILINX_sematik> compiled
+Module <M4_1E_MXILINX_sematik> compiled
+Module <D2_4E_MXILINX_sematik> compiled
+Module <sematik> compiled
+No errors in compilation
+Analysis of file <"sematik.prj"> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <sematik>.
+Module <sematik> is correct for synthesis.
+ 
+    Set user-defined property "HU_SET =  XLXI_1_2" for instance <XLXI_1> in unit <sematik>.
+    Set user-defined property "HU_SET =  XLXI_2_3" for instance <XLXI_2> in unit <sematik>.
+Analyzing module <D2_4E_MXILINX_sematik>.
+Module <D2_4E_MXILINX_sematik> is correct for synthesis.
+ 
+Analyzing module <M4_1E_MXILINX_sematik>.
+Module <M4_1E_MXILINX_sematik> is correct for synthesis.
+ 
+    Set user-defined property "HU_SET =  I_M01_1" for instance <I_M01> in unit <M4_1E_MXILINX_sematik>.
+    Set user-defined property "HU_SET =  I_M23_0" for instance <I_M23> in unit <M4_1E_MXILINX_sematik>.
+Analyzing module <M2_1E_MXILINX_sematik>.
+Module <M2_1E_MXILINX_sematik> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <M2_1E_MXILINX_sematik>.
+    Related source file is "sematik.vf".
+Unit <M2_1E_MXILINX_sematik> synthesized.
+
+
+Synthesizing Unit <M4_1E_MXILINX_sematik>.
+    Related source file is "sematik.vf".
+Unit <M4_1E_MXILINX_sematik> synthesized.
+
+
+Synthesizing Unit <D2_4E_MXILINX_sematik>.
+    Related source file is "sematik.vf".
+Unit <D2_4E_MXILINX_sematik> synthesized.
+
+
+Synthesizing Unit <sematik>.
+    Related source file is "sematik.vf".
+Unit <sematik> synthesized.
+
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sematik> ...
+
+Optimizing unit <D2_4E_MXILINX_sematik> ...
+
+Optimizing unit <M2_1E_MXILINX_sematik> ...
+
+Optimizing unit <M4_1E_MXILINX_sematik> ...
+Loading device for application Rf_Device from file 'v200.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sematik, actual ratio is 0.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sematik.ngr
+Top Level Output File Name         : sematik
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 5
+
+Cell Usage :
+# BELS                             : 13
+#      AND3                        : 3
+#      AND3b1                      : 4
+#      AND3b2                      : 1
+#      LUT1                        : 2
+#      MUXF5                       : 1
+#      OR2                         : 2
+# IO Buffers                       : 5
+#      IBUF                        : 4
+#      OBUF                        : 1
+# Others                           : 1
+#      PULLUP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2s200pq208-6 
+
+ Number of Slices:                       1  out of   2352     0%  
+ Number of 4 input LUTs:                 2  out of   4704     0%  
+ Number of bonded IOBs:                  5  out of    144     3%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -6
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 13.535ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 13 / 1
+-------------------------------------------------------------------------
+Delay:               13.535ns (Levels of Logic = 10)
+  Source:            a (PAD)
+  Destination:       F (PAD)
+
+  Data Path: a to F
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   0.776   1.440  a_IBUF (a_IBUF)
+     begin scope: 'XLXI_1'
+     AND3b1:I0->O          1   0.549   1.035  I_36_32 (D1)
+     end scope: 'XLXI_1'
+     begin scope: 'XLXI_2'
+     begin scope: 'I_M01'
+     AND3:I0->O            1   0.549   1.035  I_36_30 (M1)
+     OR2:I0->O             1   0.549   1.035  I_36_38 (O)
+     end scope: 'I_M01'
+     LUT1:I0->O            1   0.549   0.000  M01_rt (M01_rt)
+     MUXF5:I0->O           1   0.315   1.035  I_O (O)
+     end scope: 'XLXI_2'
+     OBUF:I->O                 4.668          F_OBUF (F)
+    ----------------------------------------
+    Total                     13.535ns (7.955ns logic, 5.580ns route)
+                                       (58.8% logic, 41.2% route)
+
+=========================================================================
+CPU : 4.42 / 4.80 s | Elapsed : 4.00 / 4.00 s
+ 
+--> 
+
+Total memory usage is 88048 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

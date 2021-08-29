@@ -1,0 +1,44 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do TEST.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module M2_1E_MXILINX_sematik
+# -- Compiling module M4_1E_MXILINX_sematik
+# -- Compiling module D2_4E_MXILINX_sematik
+# -- Compiling module sematik
+# 
+# Top level modules:
+# 	sematik
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module TEST
+# 
+# Top level modules:
+# 	TEST
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps TEST glbl 
+# Loading work.TEST
+# Loading work.sematik
+# Loading work.D2_4E_MXILINX_sematik
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND3
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND3B1
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.AND3B2
+# Loading work.M4_1E_MXILINX_sematik
+# Loading work.M2_1E_MXILINX_sematik
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.OR2
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.MUXF5
+# Loading C:\Modeltech_xe_starter\win32xoem/../xilinx/verilog/unisims_ver.PULLUP
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+# No errors or warnings.
+# Break at TEST.tfw line 50
+# Simulation Breakpoint: Break at TEST.tfw line 50
+# MACRO ./TEST.fdo PAUSED at line 14
+add list *
+write list -window .list {C:/Documents and Settings/user/deney7-3/list.lst}
+destroy .list

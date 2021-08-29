@@ -1,0 +1,2 @@
+sch2verilog -intstyle ise   -family spartan2 -w samatik.sch samatik.vf
+sch2verilog -intstyle ise   -family spartan2 -w samatik.sch samatik.vf

@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : sch2verilog
+//  /   /         Filename : sema01.vf
+// /___/   /\     Timestamp : 12/13/2006 14:17:33
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:/Xilinx/bin/nt/sch2verilog.exe -intstyle ise -family spartan2 -w sema01.sch sema01.vf
+//Design Name: sema01
+//Device: spartan2
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module sema01(mclk, 
+              F);
+
+    input mclk;
+   output F;
+   
+   wire XLXN_1;
+   
+   FD XLXI_1 (.C(mclk), 
+              .D(F), 
+              .Q(XLXN_1));
+   // synthesis attribute INIT of XLXI_1 is "0"
+   // synopsys translate_off
+   defparam XLXI_1.INIT = 1'b0;
+   // synopsys translate_on
+   INV XLXI_2 (.I(XLXN_1), 
+               .O(F));
+endmodule

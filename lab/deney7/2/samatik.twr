@@ -1,0 +1,45 @@
+--------------------------------------------------------------------------------
+Release 7.1i Trace H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -ise
+c:\documents and settings\ogrenci\desktop\deney7\2\deney7-2.ise -intstyle ise
+-e 3 -l 3 -s 6 -xml samatik samatik.ncd -o samatik.twr samatik.pcf
+
+
+Design file:              samatik.ncd
+Physical constraint file: samatik.pcf
+Device,speed:             xc2s200,-6 (PRODUCTION 1.27 2005-01-22)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a              |F              |   10.259|
+b              |F              |   10.169|
+c              |F              |    9.715|
+d              |F              |    9.893|
+---------------+---------------+---------+
+
+Analysis completed Wed Dec 06 15:31:08 2006
+--------------------------------------------------------------------------------
+
+
+
+Peak Memory Usage: 68 MB

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn __projnav/fourbitscarrylookahead.xst -ofn fourbitscarrylookahead.syr
+ngdbuild -intstyle ise -dd "f:\2006-2007\eem211\lab6\lab6-02/_ngo" -uc pins.ucf -aul  -p xc2s200-pq208-6 fourbitscarrylookahead.ngc fourbitscarrylookahead.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o fourbitscarrylookahead_map.ncd fourbitscarrylookahead.ngd fourbitscarrylookahead.pcf
+par -w -intstyle ise -ol std -t 1 fourbitscarrylookahead_map.ncd fourbitscarrylookahead.ncd fourbitscarrylookahead.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml fourbitscarrylookahead fourbitscarrylookahead.ncd -o fourbitscarrylookahead.twr fourbitscarrylookahead.pcf
+bitgen -intstyle ise -f fourbitscarrylookahead.ut fourbitscarrylookahead.ncd

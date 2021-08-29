@@ -1,0 +1,52 @@
+Release 7.1i ngdbuild H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd f:\2006-2007\eem211\l5-2/_ngo -uc
+pegasus.ucf -aul -p xc2s200-pq208-6 Sema2.ngc Sema2.ngd 
+
+Reading NGO file 'F:/2006-2007/eem211/L5-2/Sema2.ngc' ...
+
+Applying constraints in "pegasus.ucf" to the design...
+INFO:NgdBuild:754 - Line 4 in 'pegasus.ucf': Could not find net(s) 'BTN0' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 5 in 'pegasus.ucf': Could not find net(s) 'BTN1' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 6 in 'pegasus.ucf': Could not find net(s) 'BTN2' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 7 in 'pegasus.ucf': Could not find net(s) 'BTN3' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 12 in 'pegasus.ucf': Could not find net(s) 'LD3' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 13 in 'pegasus.ucf': Could not find net(s) 'LD4' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 19 in 'pegasus.ucf': Could not find net(s) 'SW4' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 20 in 'pegasus.ucf': Could not find net(s) 'SW5' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 21 in 'pegasus.ucf': Could not find net(s) 'SW6' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+INFO:NgdBuild:754 - Line 22 in 'pegasus.ucf': Could not find net(s) 'SW7' in the
+   design. The 'Allow Unmatched LOC Constraints' ISE option is set ( -aul switch
+   ) so this constraint will be ignored.
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 61188 kilobytes
+
+Writing NGD file "Sema2.ngd" ...
+
+Writing NGDBUILD log file "Sema2.bld"...

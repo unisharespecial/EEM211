@@ -1,0 +1,20 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do lab4test.fdo 
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module fadder
+# -- Compiling module fourbitadder1
+# 
+# Top level modules:
+# 	fourbitadder1
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module lab4test
+# 
+# Top level modules:
+# 	lab4test
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps lab4test glbl 

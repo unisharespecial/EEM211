@@ -1,0 +1,105 @@
+m255
+13
+cModel Technology
+dC:\Documents and Settings\ogrenci\Desktop\yasin deney 8
+vFJKC_MXILINX_sema02
+IW851mMGI`Da`LHaX^6V223
+V_e3_LF]9Dld1O8@b3iUKK2
+w1166015096
+Fsema02.vf
+L0 24
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@f@j@k@c_@m@x@i@l@i@n@x_sema02
+vFJKC_MXILINX_sema03
+I5[XVZ9KH7O:dS?nV<1<1Q2
+V[aF5Nmbf?C^^EmEQP0G5o0
+w1166015820
+Fsema03.vf
+L0 24
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@f@j@k@c_@m@x@i@l@i@n@x_sema03
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+w1107956757
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vsema01
+IgeOTJNnWO:E[aCHI1c:eX0
+VOQSA3Z5doo3iGoVm^bV6b2
+w1166012254
+Fsema01.vf
+L0 24
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vsema02
+ICl<=5kIh`aX^_NB_Jm0iX0
+V<l^[?;@;:nWWC:OXZzJMJ2
+w1166015096
+Fsema02.vf
+L0 68
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vsema03
+IB>^D?kXcENdF]Hk;6fFzg1
+Vj3ko3XY:F9AK;ASoKDBQe0
+w1166015820
+Fsema03.vf
+L0 68
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vtest01
+IJ]Sd9^gj9Mz;SEM64ckl^2
+V]d2PV]HAhMT<NUM6QmAF@1
+w1166015268
+Ftest01.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vtest02
+I2UJ]9]c1Y73Q>`oz0h8E^1
+VIdWBN^ndf:i`^h5mRdY<W0
+w1166015559
+Ftest02.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vtest03
+Il9<0]J7`PKU]UX=?G>Yj`3
+V9^gLP^<7Y;OXog?DG79:^3
+w1166015840
+Ftest03.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000

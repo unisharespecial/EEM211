@@ -1,0 +1,6 @@
+# XST flow : Creating project file
+sematik.prj
+# xst flow : RunXST
+sematik.prj
+__projnav/sematik.xst
+./xst

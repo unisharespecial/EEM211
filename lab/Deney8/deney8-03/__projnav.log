@@ -1,0 +1,377 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:100 - Source branch of bus tap at (2480 1760, 2480 1664) is
+   not a bus.
+ERROR:DesignEntry:100 - Source branch of bus tap at (1840 1744, 1840 1648) is
+   not a bus.
+ERROR:DesignEntry:100 - Source branch of bus tap at (1184 1728, 1184 1632) is
+   not a bus.
+WARNING:DesignEntry:216 - Net "XLXN_15" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_23" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_24" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_27" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:100 - Source branch of bus tap at (2480 1760, 2480 1664) is
+   not a bus.
+ERROR:DesignEntry:100 - Source branch of bus tap at (1840 1744, 1840 1648) is
+   not a bus.
+ERROR:DesignEntry:100 - Source branch of bus tap at (1184 1728, 1184 1632) is
+   not a bus.
+WARNING:DesignEntry:218 - Net "XLXN_22" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:216 - Net "XLXN_30" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:100 - Source branch of bus tap at (2480 1760, 2480 1664) is
+   not a bus.
+ERROR:DesignEntry:100 - Source branch of bus tap at (1840 1744, 1840 1648) is
+   not a bus.
+ERROR:DesignEntry:100 - Source branch of bus tap at (1184 1728, 1184 1632) is
+   not a bus.
+WARNING:DesignEntry:218 - Net "XLXN_22" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:216 - Net "XLXN_30" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+ERROR:DesignEntry:20 - Pin "O" is connected to a bus of a different width.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:100 - Source branch of bus tap at (2480 1760, 2480 1664) is
+   not a bus.
+ERROR:DesignEntry:100 - Source branch of bus tap at (1840 1744, 1840 1648) is
+   not a bus.
+ERROR:DesignEntry:100 - Source branch of bus tap at (1184 1728, 1184 1632) is
+   not a bus.
+WARNING:DesignEntry:218 - Net "XLXN_22" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:219 - Bus "Q(3:0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_30" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+ERROR:DesignEntry:20 - Pin "I" is connected to a bus of a different width.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:239 - Incorrect bus tap at (2480 1760, 2480 1664); destination
+   branch "XLXN_33" is not part of the source branch "Q(3:0)".
+ERROR:DesignEntry:239 - Incorrect bus tap at (1840 1744, 1840 1648); destination
+   branch "XLXN_36" is not part of the source branch "Q(3:0)".
+ERROR:DesignEntry:239 - Incorrect bus tap at (1184 1728, 1184 1632); destination
+   branch "XLXN_37" is not part of the source branch "Q(3:0)".
+WARNING:DesignEntry:219 - Bus "Q(3:0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "XLXN_33" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_34" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_35" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:216 - Net "XLXN_36" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "XLXN_37" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_38" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:239 - Incorrect bus tap at (2480 1760, 2480 1664); destination
+   branch "XLXN_33" is not part of the source branch "Q(3:0)".
+ERROR:DesignEntry:239 - Incorrect bus tap at (1840 1744, 1840 1648); destination
+   branch "XLXN_36" is not part of the source branch "Q(3:0)".
+ERROR:DesignEntry:239 - Incorrect bus tap at (1184 1728, 1184 1632); destination
+   branch "XLXN_37" is not part of the source branch "Q(3:0)".
+WARNING:DesignEntry:219 - Bus "Q(3:0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "XLXN_33" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_34" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_35" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+WARNING:DesignEntry:216 - Net "XLXN_36" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "XLXN_37" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_38" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+WARNING:DesignEntry:216 - Net "Q(2)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_34" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_35" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+WARNING:DesignEntry:216 - Net "Q(0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_38" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+WARNING:DesignEntry:216 - Net "Q(1)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+WARNING:DesignEntry:216 - Net "Q(2)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_34" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_35" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+WARNING:DesignEntry:216 - Net "Q(1)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "XLXN_46" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "XLXN_48" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:239 - Incorrect bus tap at (1184 1728, 1184 1632); destination
+   branch "XLXN_70" is not part of the source branch "Q(2:0)".
+WARNING:DesignEntry:216 - Net "Q(2)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "Q(1)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "Q(0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_67" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:239 - Incorrect bus tap at (3120 1952, 3120 1856); destination
+   branch "XLXN_94" is not part of the source branch "Q(2:0)".
+ERROR:DesignEntry:239 - Incorrect bus tap at (2240 1952, 2240 1856); destination
+   branch "XLXN_91" is not part of the source branch "Q(2:0)".
+ERROR:DesignEntry:239 - Incorrect bus tap at (1136 1952, 1136 1856); destination
+   branch "XLXN_90" is not part of the source branch "Q(2:0)".
+WARNING:DesignEntry:219 - Bus "Q(2:0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_90" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_91" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_94" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:239 - Incorrect bus tap at (3120 1952, 3120 1856); destination
+   branch "XLXN_94" is not part of the source branch "Q(2:0)".
+ERROR:DesignEntry:239 - Incorrect bus tap at (2240 1952, 2240 1856); destination
+   branch "XLXN_91" is not part of the source branch "Q(2:0)".
+ERROR:DesignEntry:239 - Incorrect bus tap at (1136 1952, 1136 1856); destination
+   branch "XLXN_90" is not part of the source branch "Q(2:0)".
+WARNING:DesignEntry:219 - Bus "Q(2:0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_90" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_91" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_94" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:239 - Incorrect bus tap at (3120 1952, 3120 1856); destination
+   branch "XLXN_94" is not part of the source branch "Q(2:0)".
+ERROR:DesignEntry:239 - Incorrect bus tap at (2240 1952, 2240 1856); destination
+   branch "XLXN_91" is not part of the source branch "Q(2:0)".
+ERROR:DesignEntry:239 - Incorrect bus tap at (1136 1952, 1136 1856); destination
+   branch "XLXN_90" is not part of the source branch "Q(2:0)".
+WARNING:DesignEntry:219 - Bus "Q(2:0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_90" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_91" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:218 - Net "XLXN_94" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+
+
+
+
+

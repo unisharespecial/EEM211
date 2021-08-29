@@ -1,0 +1,132 @@
+m255
+13
+cModel Technology
+dC:\deney7
+vD2_4E_MXILINX_sema3
+IoPSaVoi9Bo6JRdTN3Vd^[1
+V<:@4<@GNm_PGkM96JIE3:0
+w1153821431
+Fsema3.vf
+L0 93
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@d2_4@e_@m@x@i@l@i@n@x_sema3
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+dC:\Documents and Settings\ogrenci\Desktop\deney7
+w1107956757
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vM2_1_MXILINX_sema2
+Ill@_OnCTjG1XBTOo7Y9[J1
+V7AL^=BR;8Y:XOF=Q0a7n?0
+w1153822104
+Fsema2.vf
+L0 24
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@m2_1_@m@x@i@l@i@n@x_sema2
+vM2_1E_MXILINX_sema3
+I:9j1n<Sek=coJ6g3<6j1E1
+VeS0MOQCJgkdk1I<kHK_[V3
+w1153821431
+Fsema3.vf
+L0 24
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@m2_1@e_@m@x@i@l@i@n@x_sema3
+vM4_1E_MXILINX_sema3
+I<`cVGkBZQdS83JV3DX^^40
+V9LjJ`0CDG>Zl`BoBB38i73
+w1153821431
+Fsema3.vf
+L0 53
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@m4_1@e_@m@x@i@l@i@n@x_sema3
+vsema1
+Ia_b5o2SdRl@7eMR5Dg0hF0
+V;fzK9[[:ojZOCO8A@PDDe0
+dC:\Documents and Settings\ogrenci\Desktop\deney7
+w1165324051
+Fsema1.vf
+L0 24
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vsema2
+I?<F<]7D@5g9jcXKhaEoX;0
+Ve@@Q8G71ozg@IWQc0S[`G1
+w1153822104
+Fsema2.vf
+L0 49
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vsema3
+I=o085Hm@7<BSBGWPOb<Rz2
+V[04BeFCO_?5[N^_OJnQo@1
+w1153821431
+Fsema3.vf
+L0 129
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vtest1
+I<DBR>iTYI@6KFNSb=6B1Y2
+V6b65WQ<QDedcb=iOdzLdh3
+dC:\Documents and Settings\ogrenci\Desktop\deney7
+w1165325149
+Ftest1.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vtest2
+IDfO^9jhcCSbW<eOKkP]i90
+VK=Un9LU_R^kYXLK9mg=Q@1
+w1153822104
+Ftest2.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vtest3
+Igm^SESSoXl3<kIb5HhPcV0
+VX3?nN`>VEF71ffNNL_Mkc0
+w1153821645
+Ftest3.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000

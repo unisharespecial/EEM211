@@ -1,0 +1,175 @@
+# Schematic : PDCL (jhdparse)
+__projnav/sematik1_jhdparse_tcl.rsp
+# Schematic : PDCL (jhdparse)
+__projnav/sematik1_jhdparse_tcl.rsp
+# Schematic : View HDL Functional Model
+sematik1.vf
+# Bencher : Creating project file
+test_bencher.prj
+# ProjNav -> New Source -> TBW
+test.vhw
+test.ano
+test.tfw
+test.ant
+# Bencher : Creating project file
+test_bencher.prj
+# ProjNav -> New Source -> TBW
+test.vhw
+test.ano
+test.tfw
+test.ant
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test_bencher.prj
+# Update Bencher Waveform
+__projnav/updateTBW_tcl.rsp
+test.vhw
+test.ano
+test.tfw
+test.ant
+# ModelSim : Simulate Behavioral Verilog Model
+test.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# xst flow : RunXST
+sematik1_summary.html
+# xst flow : RunXST
+sematik1_summary.html
+# xst flow : RunXST
+sematik1_summary.html
+# xst flow : RunXST
+sematik1_summary.html
+# Schematic : PDCL (jhdparse)
+__projnav/sematik1_jhdparse_tcl.rsp
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# xst flow : RunXST
+sematik1_summary.html
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher : Creating project file
+test_bencher.prj
+# Schematic : PDCL (jhdparse)
+__projnav/sematik1_jhdparse_tcl.rsp
+# Bencher : Creating project file
+test_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# xst flow : RunXST
+sematik1_summary.html
+# Bencher : Creating project file
+test_bencher.prj
+# XST (Creating Lso File) : 
+sematik1.lso
+# xst flow : RunXST
+sematik1_summary.html
+# xst flow : RunXST
+sematik1.syr
+sematik1.prj
+sematik1.sprj
+sematik1.ana
+sematik1.stx
+sematik1.cmd_log
+sematik1.ngc
+sematik1.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"c:\documents and settings\ogrenci\desktop\deney7\1/_ngo"
+sematik1.ngd
+sematik1_ngdbuild.nav
+sematik1.bld
+pins.ucf.untf
+sematik1.cmd_log
+# Implementation : Map
+sematik1_summary.html
+# Implementation : Map
+sematik1_map.ncd
+sematik1.ngm
+sematik1.pcf
+sematik1.nc1
+sematik1.mrp
+sematik1_map.mrp
+sematik1.mdf
+sematik1.cmd_log
+MAP_NO_GUIDE_FILE_CPF "sematik1"
+sematik1_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+sematik1.twr
+sematik1.twx
+sematik1.tsi
+sematik1.cmd_log
+# Implementation : Place & Route
+sematik1_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+sematik1.ncd
+sematik1.par
+sematik1.pad
+sematik1_pad.txt
+sematik1_pad.csv
+sematik1.pad_txt
+sematik1.dly
+reportgen.log
+sematik1.xpi
+sematik1.grf
+sematik1.itr
+sematik1_last_par.ncd
+sematik1.placed_ncd_tracker
+sematik1.routed_ncd_tracker
+sematik1.cmd_log
+PAR_NO_GUIDE_FILE_CPF "sematik1"
+# Generate Programming File
+__projnav/sematik1_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+sematik1.ut
+# Generate Programming File
+sematik1.bgn
+sematik1.rbt
+sematik1.ll
+sematik1.msk
+sematik1.drc
+sematik1.nky
+sematik1.bit
+sematik1.bin
+sematik1.isc
+sematik1.cmd_log
+# Configure Device (iMPACT)
+sematik1.prm
+sematik1.isc
+sematik1.svf
+xilinx.sys
+sematik1.mcs
+sematik1.exo
+sematik1.hex
+sematik1.tek
+sematik1.dst
+sematik1.dst_compressed
+sematik1.mpm
+_impact.cmd
+_impact.log
+# xst flow : RunXST
+sematik1_summary.html
+# xst flow : RunXST
+sematik1_summary.html
+# Configure Device (iMPACT)
+sematik1.prm
+sematik1.isc
+sematik1.svf
+xilinx.sys
+sematik1.mcs
+sematik1.exo
+sematik1.hex
+sematik1.tek
+sematik1.dst
+sematik1.dst_compressed
+sematik1.mpm
+_impact.cmd
+_impact.log

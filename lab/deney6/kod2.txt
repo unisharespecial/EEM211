@@ -1,0 +1,24 @@
+module tamtoplayici(s,cout,a,b,cin);
+input a,b,cin;
+output s,cout;
+wire w1,w2,w3;
+xor #(17) xor1(w1,a,b);
+and #(14) and1(w2,a,b);
+xor #(17) xor2(s,w1,cin);
+and #(14) and2(w3,cin,w1);
+or #(15) or1(cout,w2,w3);
+
+
+endmodule
+
+module tamtoplayici4(LD,SW,BTN0);
+input [7:0] SW;
+input BTN0;
+output [4:0] LD;
+wire W1,W2,W3;
+tamtoplayici a1(LD[0],W1,SW[4],SW[0],BTN0 );
+tamtoplayici a2(LD[1],W2,SW[5],SW[1],W1);
+tamtoplayici a3(LD[2],W3,SW[6],SW[2],W2);
+tamtoplayici a4(LD[3],LD[4],SW[7],SW[3],W3);
+
+endmodule

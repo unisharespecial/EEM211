@@ -1,0 +1,74 @@
+m255
+13
+cModel Technology
+dC:\Documents and Settings\user\deney7-3
+vD2_4E_MXILINX_sematik
+IBfo^nOP:hNj0f0lbLNHgj3
+VO=;;0b`TDP^8NWgF[1KgD3
+w1165183904
+Fsematik.vf
+L0 93
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@d2_4@e_@m@x@i@l@i@n@x_sematik
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+w1107956757
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vM2_1E_MXILINX_sematik
+IYj10[mNYFRLFWWDBjEMY;1
+VE?VTS<niM0@2RWnHlVU=h1
+w1165183904
+Fsematik.vf
+L0 24
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@m2_1@e_@m@x@i@l@i@n@x_sematik
+vM4_1E_MXILINX_sematik
+IF=`dVOlNKGKaeH@o:4Y8S3
+VDCjE>n=SYQ<P9MmLNOfzd2
+w1165183904
+Fsematik.vf
+L0 53
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@m4_1@e_@m@x@i@l@i@n@x_sematik
+vsematik
+I9<X985S[IYj^<R^<GIYAZ2
+VZOmd;z0i;mKeKUb<eVgjc2
+w1165183904
+Fsematik.vf
+L0 129
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vTEST
+Il3gI6b2>[g8AL?[L]_UiX2
+VbIW=:K5z]3n<z[T1F6BzC2
+w1165184113
+FTEST.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+n@t@e@s@t

@@ -1,0 +1,74 @@
+--------------------------------------------------------------------------------
+Release 7.1i Trace H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -ise f:\2006-2007\eem211\lab04\lab04\lab04.ise
+-intstyle ise -e 3 -l 3 -s 6 -xml fourbitadder2 fourbitadder2.ncd -o
+fourbitadder2.twr fourbitadder2.pcf
+
+
+Design file:              fourbitadder2.ncd
+Physical constraint file: fourbitadder2.pcf
+Device,speed:             xc2s200,-6 (PRODUCTION 1.27 2005-01-22)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+btn0           |ld0            |   10.534|
+btn0           |ld1            |   11.132|
+btn0           |ld2            |   12.793|
+btn0           |ld3            |   14.524|
+btn0           |ld4            |   13.911|
+sw0            |ld0            |   10.688|
+sw0            |ld1            |   11.393|
+sw0            |ld2            |   12.788|
+sw0            |ld3            |   14.519|
+sw0            |ld4            |   13.906|
+sw1            |ld1            |   10.042|
+sw1            |ld2            |   11.459|
+sw1            |ld3            |   12.877|
+sw1            |ld4            |   12.264|
+sw2            |ld2            |   10.038|
+sw2            |ld3            |   12.963|
+sw2            |ld4            |   12.350|
+sw3            |ld3            |   10.803|
+sw3            |ld4            |   10.449|
+sw4            |ld0            |   10.014|
+sw4            |ld1            |   10.594|
+sw4            |ld2            |   11.857|
+sw4            |ld3            |   13.588|
+sw4            |ld4            |   12.975|
+sw5            |ld1            |   10.361|
+sw5            |ld2            |   10.670|
+sw5            |ld3            |   12.750|
+sw5            |ld4            |   12.164|
+sw6            |ld2            |   10.332|
+sw6            |ld3            |   11.268|
+sw6            |ld4            |   10.885|
+sw7            |ld3            |   10.472|
+sw7            |ld4            |    9.897|
+---------------+---------------+---------+
+
+Analysis completed Wed Nov 01 15:57:33 2006
+--------------------------------------------------------------------------------
+
+
+
+Peak Memory Usage: 68 MB

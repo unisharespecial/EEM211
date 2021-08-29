@@ -1,0 +1,86 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : sch2verilog
+//  /   /         Filename : Sema1.vf
+// /___/   /\     Timestamp : 11/08/2006 14:33:40
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:/Xilinx/bin/nt/sch2verilog.exe -intstyle ise -family spartan2 -w Sema1.sch Sema1.vf
+//Design Name: Sema1
+//Device: spartan2
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Sema1(SW0, 
+             SW1, 
+             SW2, 
+             SW3, 
+             LD0);
+
+    input SW0;
+    input SW1;
+    input SW2;
+    input SW3;
+   output LD0;
+   
+   wire XLXN_2;
+   wire XLXN_3;
+   wire XLXN_11;
+   wire XLXN_13;
+   wire XLXN_15;
+   wire XLXN_16;
+   wire XLXN_17;
+   wire XLXN_18;
+   wire XLXN_19;
+   wire XLXN_20;
+   wire XLXN_21;
+   wire XLXN_23;
+   
+   INV XLXI_1 (.I(SW0), 
+               .O(XLXN_2));
+   INV XLXI_2 (.I(SW1), 
+               .O(XLXN_3));
+   INV XLXI_3 (.I(SW2), 
+               .O(XLXN_13));
+   AND3 XLXI_4 (.I0(SW2), 
+                .I1(XLXN_3), 
+                .I2(XLXN_2), 
+                .O(XLXN_21));
+   AND3 XLXI_5 (.I0(SW3), 
+                .I1(XLXN_13), 
+                .I2(SW1), 
+                .O(XLXN_23));
+   AND3 XLXI_6 (.I0(SW3), 
+                .I1(SW2), 
+                .I2(XLXN_2), 
+                .O(XLXN_20));
+   OR2 XLXI_7 (.I0(XLXN_23), 
+               .I1(XLXN_21), 
+               .O(XLXN_19));
+   OR2 XLXI_8 (.I0(XLXN_17), 
+               .I1(XLXN_20), 
+               .O(XLXN_18));
+   OR2 XLXI_9 (.I0(XLXN_18), 
+               .I1(XLXN_19), 
+               .O(LD0));
+   NAND2 XLXI_10 (.I0(SW2), 
+                  .I1(XLXN_3), 
+                  .O(XLXN_11));
+   NAND2 XLXI_11 (.I0(SW3), 
+                  .I1(XLXN_15), 
+                  .O(XLXN_16));
+   INV XLXI_12 (.I(XLXN_11), 
+                .O(XLXN_15));
+   INV XLXI_13 (.I(XLXN_16), 
+                .O(XLXN_17));
+endmodule

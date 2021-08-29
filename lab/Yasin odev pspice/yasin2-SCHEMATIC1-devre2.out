@@ -1,0 +1,83 @@
+
+**** 12/01/06 13:19:19 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-devre2"  [ G:\Yasin\yasin2-SCHEMATIC1-devre2.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "yasin2-SCHEMATIC1-devre2.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\OrcadLite\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100ns 0 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\yasin2-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING yasin2-SCHEMATIC1.net ****
+* source YASIN2
+R_R1         N00270 N00015  25  
+R_R2         0 N00015  50  
+R_R3         N00057 0  10  
+R_R4         N00029 N00033  10  
+R_R5         0 N00033  100  
+V_V1         N00029 N00057 200Vdc
+X_F1    N00029 N00270 N00015 N00033 SCHEMATIC1_F1 
+
+.subckt SCHEMATIC1_F1 1 2 3 4  
+F_F1         3 4 VF_F1 4.3
+VF_F1         1 2 0V
+.ends SCHEMATIC1_F1
+
+**** RESUMING yasin2-SCHEMATIC1-devre2.sim.cir ****
+.END
+
+**** 12/01/06 13:19:19 ************** PSpice Lite (Mar 2000) *****************
+
+ ** Profile: "SCHEMATIC1-devre2"  [ G:\Yasin\yasin2-SCHEMATIC1-devre2.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00015)  181.5000 (N00029)  154.0000 (N00033)   97.0000 (N00057)  -46.0000     
+
+(N00270)  154.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -4.600E+00
+    X_F1.VF_F1  -1.100E+00
+
+    TOTAL POWER DISSIPATION   9.20E+02  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .09
+

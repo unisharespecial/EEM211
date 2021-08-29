@@ -1,0 +1,196 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : ISE WebPACK
+//  /   /         Filename : test.tfw
+// /___/   /\     Timestamp : Wed Nov 08 00:19:42 2006
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: test
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module test;
+    wire LD0;
+    wire LD1;
+    wire LD2;
+    wire LD3;
+    wire LD4;
+    reg SW0 = 1'b0;
+    reg SW1 = 1'b0;
+    reg SW2 = 1'b0;
+    reg SW3 = 1'b0;
+    reg SW4 = 1'b1;
+    reg SW5 = 1'b0;
+    reg SW6 = 1'b0;
+    reg SW7 = 1'b0;
+    reg BTN0 = 1'b0;
+
+
+    fourbitadder2 UUT (
+        .LD0(LD0),
+        .LD1(LD1),
+        .LD2(LD2),
+        .LD3(LD3),
+        .LD4(LD4),
+        .SW0(SW0),
+        .SW1(SW1),
+        .SW2(SW2),
+        .SW3(SW3),
+        .SW4(SW4),
+        .SW5(SW5),
+        .SW6(SW6),
+        .SW7(SW7),
+        .BTN0(BTN0));
+
+        integer TX_ERROR = 0;
+        
+        initial begin  // Open the results file...
+            #1000 // Final time:  1000 ns
+            if (TX_ERROR == 0) begin
+                $display("No errors or warnings.");
+                end else begin
+                    $display("%d errors found in simulation.", TX_ERROR);
+                    end
+                    $stop;
+                end
+
+                initial begin
+                    // -------------  Current Time:  100ns
+                    #100;
+                    SW0 = 1'b1;
+                    SW2 = 1'b1;
+                    SW3 = 1'b1;
+                    // -------------------------------------
+                    // -------------  Current Time:  200ns
+                    #100;
+                    SW0 = 1'b0;
+                    SW1 = 1'b1;
+                    SW2 = 1'b0;
+                    SW4 = 1'b0;
+                    SW5 = 1'b1;
+                    SW6 = 1'b1;
+                    SW7 = 1'b1;
+                    BTN0 = 1'b1;
+                    // -------------------------------------
+                    // -------------  Current Time:  300ns
+                    #100;
+                    SW2 = 1'b1;
+                    SW4 = 1'b1;
+                    SW6 = 1'b0;
+                    SW7 = 1'b0;
+                    // -------------------------------------
+                    // -------------  Current Time:  400ns
+                    #100;
+                    SW0 = 1'b1;
+                    SW2 = 1'b0;
+                    SW3 = 1'b0;
+                    SW5 = 1'b0;
+                    SW6 = 1'b1;
+                    BTN0 = 1'b0;
+                    // -------------------------------------
+                    // -------------  Current Time:  500ns
+                    #100;
+                    SW1 = 1'b0;
+                    SW2 = 1'b1;
+                    SW6 = 1'b0;
+                    SW7 = 1'b1;
+                    // -------------------------------------
+                    // -------------  Current Time:  600ns
+                    #100;
+                    SW0 = 1'b0;
+                    SW2 = 1'b0;
+                    SW3 = 1'b1;
+                    SW4 = 1'b0;
+                    SW5 = 1'b1;
+                    SW6 = 1'b1;
+                    SW7 = 1'b0;
+                    // -------------------------------------
+                    // -------------  Current Time:  700ns
+                    #100;
+                    SW0 = 1'b1;
+                    SW2 = 1'b1;
+                    SW6 = 1'b0;
+                    BTN0 = 1'b1;
+                    // -------------------------------------
+                    // -------------  Current Time:  800ns
+                    #100;
+                    SW1 = 1'b1;
+                    SW2 = 1'b0;
+                    SW3 = 1'b0;
+                    SW4 = 1'b1;
+                    SW5 = 1'b0;
+                    SW7 = 1'b1;
+                    BTN0 = 1'b0;
+                    // -------------------------------------
+                    // -------------  Current Time:  900ns
+                    #100;
+                    SW2 = 1'b1;
+                    // -------------------------------------
+                    // -------------  Current Time:  1000ns
+                    #100;
+                    CHECK_LD0(1'b0);
+                    SW2 = 1'b0;
+                end
+
+                task CHECK_LD0;
+                    input NEXT_LD0;
+
+                    #0 begin
+                        if (NEXT_LD0 !== LD0) begin
+                            $display("Error at time=%dns LD0=%b, expected=%b", $time, LD0, NEXT_LD0);
+                            TX_ERROR = TX_ERROR + 1;
+                        end
+                    end
+                endtask
+                task CHECK_LD1;
+                    input NEXT_LD1;
+
+                    #0 begin
+                        if (NEXT_LD1 !== LD1) begin
+                            $display("Error at time=%dns LD1=%b, expected=%b", $time, LD1, NEXT_LD1);
+                            TX_ERROR = TX_ERROR + 1;
+                        end
+                    end
+                endtask
+                task CHECK_LD2;
+                    input NEXT_LD2;
+
+                    #0 begin
+                        if (NEXT_LD2 !== LD2) begin
+                            $display("Error at time=%dns LD2=%b, expected=%b", $time, LD2, NEXT_LD2);
+                            TX_ERROR = TX_ERROR + 1;
+                        end
+                    end
+                endtask
+                task CHECK_LD3;
+                    input NEXT_LD3;
+
+                    #0 begin
+                        if (NEXT_LD3 !== LD3) begin
+                            $display("Error at time=%dns LD3=%b, expected=%b", $time, LD3, NEXT_LD3);
+                            TX_ERROR = TX_ERROR + 1;
+                        end
+                    end
+                endtask
+                task CHECK_LD4;
+                    input NEXT_LD4;
+
+                    #0 begin
+                        if (NEXT_LD4 !== LD4) begin
+                            $display("Error at time=%dns LD4=%b, expected=%b", $time, LD4, NEXT_LD4);
+                            TX_ERROR = TX_ERROR + 1;
+                        end
+                    end
+                endtask
+
+            endmodule
+

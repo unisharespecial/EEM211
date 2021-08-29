@@ -1,0 +1,6 @@
+# XST flow : Creating project file
+fourbitscarrylookahead.prj
+# xst flow : RunXST
+fourbitscarrylookahead.prj
+__projnav/fourbitscarrylookahead.xst
+./xst

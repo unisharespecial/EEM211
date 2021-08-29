@@ -1,0 +1,79 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : ISE WebPACK
+//  /   /         Filename : test02.ant
+// /___/   /\     Timestamp : Wed Dec 13 15:12:39 2006
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: test02
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module test02;
+    reg mclk = 1'b0;
+    wire [3:0] Q;
+
+    parameter PERIOD = 200;
+    parameter real DUTY_CYCLE = 0.5;
+    parameter OFFSET = 0;
+
+    initial    // Clock process for mclk
+    begin
+        #OFFSET;
+        forever
+        begin
+            mclk = 1'b0;
+            #(PERIOD-(PERIOD*DUTY_CYCLE)) mclk = 1'b1;
+            #(PERIOD*DUTY_CYCLE);
+        end
+    end
+
+    sema02 UUT (
+        .mclk(mclk),
+        .Q(Q));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process for clock mclk
+        #0;
+        ANNOTATE_Q;
+        #OFFSET;
+        forever begin
+            #115;
+            ANNOTATE_Q;
+            #85;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("C:\\Documents and Settings\\ogrenci\\Desktop\\yasin deney 8\\test02.ano");
+        #4200 // Final time:  4200 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+    end
+
+    task ANNOTATE_Q;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,Q,%b]", $time, Q);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

@@ -1,0 +1,71 @@
+iMPACT Version: H.38
+iMPACT log file started on 2006/12/05 15:51:05
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:FALSE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setMode -bs
+Loading cdf file c:\documents and settings\ogrenci\desktop\deney7/deney7.ipf...
+// *** BATCH CMD : setPreference -pref UserLevel:Novice
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -mpm
+// *** BATCH CMD : setMode -cf
+// *** BATCH CMD : setMode -dtconfig
+// *** BATCH CMD : setMode -bsfile
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : addDevice -position 1 -file "C:\Documents and Settings\ogrenci\Desktop\deney7\sema1.bit"
+'1': Loading file 'C:\Documents and Settings\ogrenci\Desktop\deney7\sema1.bit' ...
+done.
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/spartan2/data/xc2s200.bsd...
+Reading C:/Xilinx/spartan2/data/xc2s200.bsd...
+INFO:iMPACT:501 - '1': Added Device xc2s200 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : 
+// *** BATCH CMD : addDevice -position 2 -part "xcf02s"
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx/xcf/data/xcf02s.bsd...
+Reading C:/Xilinx/xcf/data/xcf02s.bsd...
+INFO:iMPACT:501 - '2': Added Device xcf02s successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : setCable -port lpt1
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 6.2.2.2. LPT base address = 0378h.
+ ECP base address = FFFFFFFFh.
+Cable connection established.
+// *** BATCH CMD : setMode -bs
+Finish loading cdf file c:\documents and settings\ogrenci\desktop\deney7/deney7.ipf.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -bsfile
+// *** BATCH CMD : setMode -dtconfig
+// *** BATCH CMD : setMode -cf
+GUI --- Read System ACE CF Mode...
+// *** BATCH CMD : setMode -mpm
+GUI --- Read System ACE MPM Mode...
+// *** BATCH CMD : setMode -pff
+GUI --- Read PROM Formatter Mode...
+// *** BATCH CMD : setMode -bs
+*****   Closing iMPACT program.   *****
+----------------------------------------------------------------------
+----------------------------------------------------------------------

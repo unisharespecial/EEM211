@@ -1,0 +1,44 @@
+--------------------------------------------------------------------------------
+Release 7.1i Trace H.38
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -ise
+c:\documents and settings\ogrenci\desktop\aaa.ise -intstyle ise -e 3 -l 3 -s 6
+-xml aaa aaa.ncd -o aaa.twr aaa.pcf
+
+
+Design file:              aaa.ncd
+Physical constraint file: aaa.pcf
+Device,speed:             xc2s200,-6 (PRODUCTION 1.27 2005-01-22)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A              |F              |    9.715|
+B              |F              |   10.098|
+C              |F              |   10.365|
+---------------+---------------+---------+
+
+Analysis completed Wed Oct 18 15:31:04 2006
+--------------------------------------------------------------------------------
+
+
+
+Peak Memory Usage: 67 MB

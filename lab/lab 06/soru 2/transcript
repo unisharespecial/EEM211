@@ -1,0 +1,32 @@
+# Reading C:/Modeltech_xe_starter/tcl/vsim/pref.tcl 
+# do test2.fdo 
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module PGgen
+# -- Compiling module carrygen
+# -- Compiling module fourbitscarrylookahead
+# 
+# Top level modules:
+# 	fourbitscarrylookahead
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module test2
+# 
+# Top level modules:
+# 	test2
+# Model Technology ModelSim XE III vlog 6.0a Compiler 2004.11 Nov 10 2004
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -lib work -t 1ps test2 glbl 
+# Loading work.test2
+# Loading work.fourbitscarrylookahead
+# Loading work.PGgen
+# Loading work.carrygen
+# Loading work.glbl
+# .main_pane.mdi.interior.cs.vm.paneset.cli_0.wf.clip.cs
+# .main_pane.workspace
+# .main_pane.signals.interior.cs
+# No errors or warnings.
+# Break at test2.tfw line 45
+# Simulation Breakpoint: Break at test2.tfw line 45
+# MACRO ./test2.fdo PAUSED at line 14

@@ -1,0 +1,119 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : ISE WebPACK
+//  /   /         Filename : test2.tfw
+// /___/   /\     Timestamp : Wed Nov 15 15:11:38 2006
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: test2
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module test2;
+    wire [3:0] S;
+    wire cout;
+    reg [3:0] A = 4'b0001;
+    reg [3:0] B = 4'b0000;
+    reg cin = 1'b0;
+
+
+    fourbitscarrylookahead UUT (
+        .S(S),
+        .cout(cout),
+        .A(A),
+        .B(B),
+        .cin(cin));
+
+        integer TX_ERROR = 0;
+        
+        initial begin  // Open the results file...
+            #4800 // Final time:  4800 ns
+            if (TX_ERROR == 0) begin
+                $display("No errors or warnings.");
+                end else begin
+                    $display("%d errors found in simulation.", TX_ERROR);
+                    end
+                    $stop;
+                end
+
+                initial begin
+                    // -------------  Current Time:  400ns
+                    #400;
+                    A = 4'b1110;
+                    // -------------------------------------
+                    // -------------  Current Time:  800ns
+                    #400;
+                    A = 4'b0001;
+                    B = 4'b0001;
+                    // -------------------------------------
+                    // -------------  Current Time:  1200ns
+                    #400;
+                    A = 4'b1001;
+                    B = 4'b1100;
+                    // -------------------------------------
+                    // -------------  Current Time:  1600ns
+                    #400;
+                    A = 4'b1000;
+                    B = 4'b0110;
+                    // -------------------------------------
+                    // -------------  Current Time:  2000ns
+                    #400;
+                    A = 4'b0101;
+                    B = 4'b1111;
+                    // -------------------------------------
+                    // -------------  Current Time:  2400ns
+                    #400;
+                    A = 4'b1101;
+                    B = 4'b1010;
+                    // -------------------------------------
+                    // -------------  Current Time:  2800ns
+                    #400;
+                    A = 4'b0000;
+                    B = 4'b0010;
+                    // -------------------------------------
+                    // -------------  Current Time:  3200ns
+                    #400;
+                    A = 4'b0011;
+                    B = 4'b1111;
+                    // -------------------------------------
+                    // -------------  Current Time:  3600ns
+                    #400;
+                    B = 4'b0110;
+                    // -------------------------------------
+                    // -------------  Current Time:  4800ns
+                    #1200;
+                    CHECK_cout(1'b0);
+                end
+
+                task CHECK_S;
+                    input [3:0] NEXT_S;
+
+                    #0 begin
+                        if (NEXT_S !== S) begin
+                            $display("Error at time=%dns S=%b, expected=%b", $time, S, NEXT_S);
+                            TX_ERROR = TX_ERROR + 1;
+                        end
+                    end
+                endtask
+                task CHECK_cout;
+                    input NEXT_cout;
+
+                    #0 begin
+                        if (NEXT_cout !== cout) begin
+                            $display("Error at time=%dns cout=%b, expected=%b", $time, cout, NEXT_cout);
+                            TX_ERROR = TX_ERROR + 1;
+                        end
+                    end
+                endtask
+
+            endmodule
+

@@ -1,0 +1,59 @@
+m255
+13
+cModel Technology
+dF:\2006-2007\eem211\Lab6\Lab6-01
+vfourbitadder
+IzEG?L^OAPiV;V>P`NU:9B0
+VV=`[k79WFBoEDiU^IedbK2
+w1163520064
+Ffourbitadder.v
+L0 37
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vglbl
+IT?5S;>bN`@zG_25]R_4A33
+VnN]4Gon>inod6>M^M2[SV1
+w1107956757
+FC:/Xilinx/verilog/src/glbl.v
+L0 5
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vhalfadder
+INaQ;bIQHzkZ:4QNP9z^9i1
+V<SUjIVh3Y@^UZSQBH^M]C1
+w1163520064
+Ffourbitadder.v
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vtamtoplayici
+IjN<Jl:a>P_C5JR3NTg4OD3
+V7<DMbh3IO<TOZ:N[8D>m;0
+w1163520064
+Ffourbitadder.v
+L0 28
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000
+vtest1
+IO;[_U3WJLmbDT5^PbilA`1
+V6b65WQ<QDedcb=iOdzLdh3
+w1163594126
+Ftest1.tfw
+L0 21
+OX;L;6.0a;29
+r1
+31
+o-O0
+tGenerateLoopIterationMax 100000

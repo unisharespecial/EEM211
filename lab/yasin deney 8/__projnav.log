@@ -1,0 +1,221 @@
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+ERROR:DesignEntry:222 - Net "Q(0)" cannot be connected both to an input port and
+   an instance output pin.
+ERROR:DesignEntry:222 - Net "Q(2)" cannot be connected both to an input port and
+   an instance output pin.
+WARNING:DesignEntry:218 - Net "Q(3)" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+ERROR:DesignEntry:222 - Net "Q(1)" cannot be connected both to an input port and
+   an instance output pin.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+WARNING:DesignEntry:216 - Net "Q(0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_22" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+WARNING:DesignEntry:218 - Net "XLXN_31" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:216 - Net "Q(2)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "Q(1)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_34" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+ERROR:DesignEntry:206 - Net "Q(3)" must be connected to a symbol pin or an I/O
+   marker.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+WARNING:DesignEntry:216 - Net "Q(0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_22" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+WARNING:DesignEntry:218 - Net "XLXN_31" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:216 - Net "Q(2)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "Q(1)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_34" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+ERROR:DesignEntry:206 - Net "Q(3)" must be connected to a symbol pin or an I/O
+   marker.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+WARNING:DesignEntry:216 - Net "Q(0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_22" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+WARNING:DesignEntry:218 - Net "XLXN_31" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:216 - Net "Q(2)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "Q(1)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_34" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+ERROR:DesignEntry:206 - Net "Q(3)" must be connected to a symbol pin or an I/O
+   marker.
+Error: 
+Process "View HDL Functional Model" did not complete.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+WARNING:DesignEntry:217 - Net "XLXN_22" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+WARNING:DesignEntry:218 - Net "XLXN_31" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_34" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+WARNING:DesignEntry:216 - Net "Q(0)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_22" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+WARNING:DesignEntry:218 - Net "XLXN_31" is connected to source pins and/or I/O
+   markers, but not connected to any load pin or I/O marker.
+WARNING:DesignEntry:216 - Net "Q(2)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:216 - Net "Q(1)" is connected to load pins and/or I/O
+   markers, but not connected to any source pin or I/O marker.
+WARNING:DesignEntry:217 - Net "XLXN_34" is connected to too many source pins
+   and/or I/O markers. A 'Wired OR' connection will be used.
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+Started process "View HDL Functional Model".
+
+DRC Check completed: No Error found.
+Verilog netlist file generated.
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+
+
+Project Navigator Auto-Make Log File
+-------------------------------------
+
+
+
+

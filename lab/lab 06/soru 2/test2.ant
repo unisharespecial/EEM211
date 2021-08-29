@@ -1,0 +1,123 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : ISE WebPACK
+//  /   /         Filename : test2.ant
+// /___/   /\     Timestamp : Wed Nov 15 15:11:39 2006
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: 
+//Design Name: test2
+//Device: Xilinx
+//
+`timescale 1ns/1ps
+
+module test2;
+    wire [3:0] S;
+    wire cout;
+    reg [3:0] A = 4'b0001;
+    reg [3:0] B = 4'b0000;
+    reg cin = 1'b0;
+
+
+    fourbitscarrylookahead UUT (
+        .S(S),
+        .cout(cout),
+        .A(A),
+        .B(B),
+        .cin(cin));
+
+    integer TX_FILE = 0;
+    integer TX_ERROR = 0;
+    
+    initial begin    // Annotation process
+        #0;
+        ANNOTATE_S;
+        ANNOTATE_cout;
+        forever begin
+            #200;
+            ANNOTATE_S;
+            ANNOTATE_cout;
+            #200;
+        end
+    end
+
+    initial begin  // Open the annotations file...
+        TX_FILE = $fopen("F:\\2006-2007\\eem211\\Lab6\\Lab6-02\\test2.ano");
+        #4800 // Final time:  4800 ns
+        $display("Success! Annotation Simulation Complete.");
+        $fdisplay(TX_FILE, "Total[%d]", TX_ERROR);
+        $fclose(TX_FILE);
+        $finish;
+    end
+
+    initial begin
+        // -------------  Current Time:  400ns
+        #400;
+        A = 4'b1110;
+        // -------------------------------------
+        // -------------  Current Time:  800ns
+        #400;
+        A = 4'b0001;
+        B = 4'b0001;
+        // -------------------------------------
+        // -------------  Current Time:  1200ns
+        #400;
+        A = 4'b1001;
+        B = 4'b1100;
+        // -------------------------------------
+        // -------------  Current Time:  1600ns
+        #400;
+        A = 4'b1000;
+        B = 4'b0110;
+        // -------------------------------------
+        // -------------  Current Time:  2000ns
+        #400;
+        A = 4'b0101;
+        B = 4'b1111;
+        // -------------------------------------
+        // -------------  Current Time:  2400ns
+        #400;
+        A = 4'b1101;
+        B = 4'b1010;
+        // -------------------------------------
+        // -------------  Current Time:  2800ns
+        #400;
+        A = 4'b0000;
+        B = 4'b0010;
+        // -------------------------------------
+        // -------------  Current Time:  3200ns
+        #400;
+        A = 4'b0011;
+        B = 4'b1111;
+        // -------------------------------------
+        // -------------  Current Time:  3600ns
+        #400;
+        B = 4'b0110;
+        // -------------------------------------
+    end
+
+    task ANNOTATE_S;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,S,%b]", $time, S);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+    task ANNOTATE_cout;
+        #0 begin
+            $fdisplay(TX_FILE, "Annotate[%d,cout,%b]", $time, cout);
+            $fflush(TX_FILE);
+            TX_ERROR = TX_ERROR + 1;
+        end
+    endtask
+
+endmodule
+

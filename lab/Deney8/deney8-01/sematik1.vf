@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2003 Xilinx, Inc.
+// All Right Reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 7.1i
+//  \   \         Application : sch2verilog
+//  /   /         Filename : sematik1.vf
+// /___/   /\     Timestamp : 12/12/2006 20:31:24
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: C:/Xilinx/bin/nt/sch2verilog.exe -intstyle ise -family spartan2 -w sematik1.sch sematik1.vf
+//Design Name: sematik1
+//Device: spartan2
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module sematik1(mclk, 
+                F);
+
+    input mclk;
+   output F;
+   
+   wire XLXN_3;
+   
+   FD XLXI_1 (.C(mclk), 
+              .D(F), 
+              .Q(XLXN_3));
+   // synthesis attribute INIT of XLXI_1 is "0"
+   // synopsys translate_off
+   defparam XLXI_1.INIT = 1'b0;
+   // synopsys translate_on
+   INV XLXI_2 (.I(XLXN_3), 
+               .O(F));
+endmodule

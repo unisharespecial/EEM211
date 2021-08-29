@@ -1,0 +1,116 @@
+# xst flow : RunXST
+fourbitscarrylookahead_summary.html
+# xst flow : RunXST
+fourbitscarrylookahead_summary.html
+# Bencher : Creating project file
+test2_bencher.prj
+# ProjNav -> New Source -> TBW
+test2.vhw
+test2.ano
+test2.tfw
+test2.ant
+# Bencher : Creating project file
+test2_bencher.prj
+# Bencher Waveform : PDCL (jhdparse)
+# Bencher : Creating project file
+test2_bencher.prj
+# Update Bencher Waveform
+__projnav/updateTBW_tcl.rsp
+test2.vhw
+test2.ano
+test2.tfw
+test2.ant
+# ModelSim : Simulate Behavioral Verilog Model
+test2.fdo
+# ModelSim : Simulate Behavioral Verilog Model
+vsim.wlf
+# XST (Creating Lso File) : 
+fourbitscarrylookahead.lso
+# xst flow : RunXST
+fourbitscarrylookahead_summary.html
+# xst flow : RunXST
+fourbitscarrylookahead.syr
+fourbitscarrylookahead.prj
+fourbitscarrylookahead.sprj
+fourbitscarrylookahead.ana
+fourbitscarrylookahead.stx
+fourbitscarrylookahead.cmd_log
+fourbitscarrylookahead.ngc
+fourbitscarrylookahead.ngr
+# Implmentation : Translate
+__projnav/ednTOngd_tcl.rsp
+"f:\2006-2007\eem211\lab6\lab6-02/_ngo"
+fourbitscarrylookahead.ngd
+fourbitscarrylookahead_ngdbuild.nav
+fourbitscarrylookahead.bld
+pins.ucf.untf
+fourbitscarrylookahead.cmd_log
+# Implementation : Map
+fourbitscarrylookahead_summary.html
+# Implementation : Map
+fourbitscarrylookahead_map.ncd
+fourbitscarrylookahead.ngm
+fourbitscarrylookahead.pcf
+fourbitscarrylookahead.nc1
+fourbitscarrylookahead.mrp
+fourbitscarrylookahead_map.mrp
+fourbitscarrylookahead.mdf
+fourbitscarrylookahead.cmd_log
+MAP_NO_GUIDE_FILE_CPF "fourbitscarrylookahead"
+fourbitscarrylookahead_map.ngm
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+fourbitscarrylookahead.twr
+fourbitscarrylookahead.twx
+fourbitscarrylookahead.tsi
+fourbitscarrylookahead.cmd_log
+# Implementation : Place & Route
+fourbitscarrylookahead_summary.html
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+fourbitscarrylookahead.ncd
+fourbitscarrylookahead.par
+fourbitscarrylookahead.pad
+fourbitscarrylookahead_pad.txt
+fourbitscarrylookahead_pad.csv
+fourbitscarrylookahead.pad_txt
+fourbitscarrylookahead.dly
+reportgen.log
+fourbitscarrylookahead.xpi
+fourbitscarrylookahead.grf
+fourbitscarrylookahead.itr
+fourbitscarrylookahead_last_par.ncd
+fourbitscarrylookahead.placed_ncd_tracker
+fourbitscarrylookahead.routed_ncd_tracker
+fourbitscarrylookahead.cmd_log
+PAR_NO_GUIDE_FILE_CPF "fourbitscarrylookahead"
+# Generate Programming File
+__projnav/fourbitscarrylookahead_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+fourbitscarrylookahead.ut
+# Generate Programming File
+fourbitscarrylookahead.bgn
+fourbitscarrylookahead.rbt
+fourbitscarrylookahead.ll
+fourbitscarrylookahead.msk
+fourbitscarrylookahead.drc
+fourbitscarrylookahead.nky
+fourbitscarrylookahead.bit
+fourbitscarrylookahead.bin
+fourbitscarrylookahead.isc
+fourbitscarrylookahead.cmd_log
+# Configure Device (iMPACT)
+fourbitscarrylookahead.prm
+fourbitscarrylookahead.isc
+fourbitscarrylookahead.svf
+xilinx.sys
+fourbitscarrylookahead.mcs
+fourbitscarrylookahead.exo
+fourbitscarrylookahead.hex
+fourbitscarrylookahead.tek
+fourbitscarrylookahead.dst
+fourbitscarrylookahead.dst_compressed
+fourbitscarrylookahead.mpm
+_impact.cmd
+_impact.log

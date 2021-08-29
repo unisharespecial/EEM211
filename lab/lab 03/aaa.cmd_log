@@ -1,0 +1,8 @@
+sch2verilog -intstyle ise   -family spartan2 -w aaa.sch aaa.vf
+sch2verilog -intstyle ise   -family spartan2 -w aaa.sch aaa.vf
+xst -intstyle ise -ifn __projnav/aaa.xst -ofn aaa.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\ogrenci\desktop/_ngo" -uc aaa.ucf -aul  -p xc2s200-pq208-6 aaa.ngc aaa.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o aaa_map.ncd aaa.ngd aaa.pcf
+par -w -intstyle ise -ol std -t 1 aaa_map.ncd aaa.ncd aaa.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml aaa aaa.ncd -o aaa.twr aaa.pcf
+bitgen -intstyle ise -f aaa.ut aaa.ncd

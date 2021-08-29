@@ -1,0 +1,26 @@
+sch2verilog -intstyle ise   -family spartan2 -w samatik.sch samatik.vf
+sch2verilog -intstyle ise   -family spartan2 -w samatik.sch samatik.vf
+xst -intstyle ise -ifn __projnav/samatik.xst -ofn samatik.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\ogrenci\desktop\deney7\2/_ngo" -uc pins.ucf -aul  -p xc2s200-pq208-6 samatik.ngc samatik.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o samatik_map.ncd samatik.ngd samatik.pcf
+par -w -intstyle ise -ol std -t 1 samatik_map.ncd samatik.ncd samatik.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml samatik samatik.ncd -o samatik.twr samatik.pcf
+bitgen -intstyle ise -f samatik.ut samatik.ncd
+xst -intstyle ise -ifn __projnav/samatik.xst -ofn samatik.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\ogrenci\desktop\deney7\2/_ngo" -uc pins.ucf -aul  -p xc2s200-pq208-6 samatik.ngc samatik.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o samatik_map.ncd samatik.ngd samatik.pcf
+par -w -intstyle ise -ol std -t 1 samatik_map.ncd samatik.ncd samatik.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml samatik samatik.ncd -o samatik.twr samatik.pcf
+bitgen -intstyle ise -f samatik.ut samatik.ncd
+xst -intstyle ise -ifn __projnav/samatik.xst -ofn samatik.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\ogrenci\desktop\deney7\2/_ngo" -uc pins.ucf -aul  -p xc2s200-pq208-6 samatik.ngc samatik.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o samatik_map.ncd samatik.ngd samatik.pcf
+par -w -intstyle ise -ol std -t 1 samatik_map.ncd samatik.ncd samatik.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml samatik samatik.ncd -o samatik.twr samatik.pcf
+bitgen -intstyle ise -f samatik.ut samatik.ncd
+xst -intstyle ise -ifn __projnav/samatik.xst -ofn samatik.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\ogrenci\desktop\deney7\2/_ngo" -uc pins.ucf -aul  -p xc2s200-pq208-6 samatik.ngc samatik.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o samatik_map.ncd samatik.ngd samatik.pcf
+par -w -intstyle ise -ol std -t 1 samatik_map.ncd samatik.ncd samatik.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml samatik samatik.ncd -o samatik.twr samatik.pcf
+bitgen -intstyle ise -f samatik.ut samatik.ncd

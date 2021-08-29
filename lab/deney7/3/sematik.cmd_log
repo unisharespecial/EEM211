@@ -1,0 +1,7 @@
+sch2verilog -intstyle ise   -family spartan2 -w sematik.sch sematik.vf
+xst -intstyle ise -ifn __projnav/sematik.xst -ofn sematik.syr
+ngdbuild -intstyle ise -dd "c:\documents and settings\ogrenci\desktop\deney7\3/_ngo" -uc pins.ucf -aul  -p xc2s200-pq208-6 sematik.ngc sematik.ngd
+map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o sematik_map.ncd sematik.ngd sematik.pcf
+par -w -intstyle ise -ol std -t 1 sematik_map.ncd sematik.ncd sematik.pcf
+trce -intstyle ise -e 3 -l 3 -s 6 -xml sematik sematik.ncd -o sematik.twr sematik.pcf
+bitgen -intstyle ise -f sematik.ut sematik.ncd

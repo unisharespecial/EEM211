@@ -1,0 +1,20 @@
+* source YASIN
+V_V1         N00062 0 38.5Vdc
+R_R1         0 N00015  100  
+R_R2         N00015 N00021  25  
+R_R3         0 N00021  200  
+R_R4         N00794 N00051  50  
+R_R5         N00638 N00051  5  
+R_R6         N00051 N00062  20  
+X_H1    N00752 N00794 N00638 0 SCHEMATIC1_H1 
+X_F1    N00021 N00752 0 N00015 SCHEMATIC1_F1 
+
+.subckt SCHEMATIC1_H1 1 2 3 4  
+H_H1         3 4 VH_H1 5
+VH_H1         1 2 0V
+.ends SCHEMATIC1_H1
+
+.subckt SCHEMATIC1_F1 1 2 3 4  
+F_F1         3 4 VF_F1 2
+VF_F1         1 2 0V
+.ends SCHEMATIC1_F1
