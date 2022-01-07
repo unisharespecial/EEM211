@@ -1,1 +1,0 @@
-sch2verilog -intstyle ise   -family spartan2 -w sematik1.sch sematik1.vf

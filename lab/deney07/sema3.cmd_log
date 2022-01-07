@@ -1,8 +1,0 @@
-sch2verilog -intstyle ise   -family spartan2 -w sema3.sch sema3.vf
-sch2verilog -intstyle ise   -family spartan2 -w sema3.sch sema3.vf
-xst -intstyle ise -ifn __projnav/sema3.xst -ofn sema3.syr
-ngdbuild -intstyle ise -dd "c:\deney7/_ngo" -uc pins.ucf -aul  -p xc2s200-pq208-6 sema3.ngc sema3.ngd
-map -intstyle ise -p xc2s200-pq208-6 -cm area -pr b -k 4 -c 100 -tx off -o sema3_map.ncd sema3.ngd sema3.pcf
-par -w -intstyle ise -ol std -t 1 sema3_map.ncd sema3.ncd sema3.pcf
-trce -intstyle ise -e 3 -l 3 -s 6 -xml sema3 sema3.ncd -o sema3.twr sema3.pcf
-bitgen -intstyle ise -f sema3.ut sema3.ncd

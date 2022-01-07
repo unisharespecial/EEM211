@@ -1,3 +1,0 @@
-sch2verilog -intstyle ise   -family spartan2 -w MUX.sch MUX.vf
-sch2verilog -intstyle ise   -family spartan2 -w MUX.sch MUX.vf
-sch2verilog -intstyle ise   -family spartan2 -w MUX.sch MUX.vf
